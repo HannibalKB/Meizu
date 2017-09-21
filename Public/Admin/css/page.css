@@ -1,0 +1,94 @@
+.text-centerpage{
+    text-align: center;
+}
+
+.pagination{
+    display: inline-block;
+    padding-left: 0;
+    margin: 21px 0;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.pagaBox{
+  height: 50px;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+}
+.text-center a:hover{
+    text-decoration: none;
+}
+.num{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #009a61;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+.current{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #009a61;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+    z-index: 2;
+    color: #fff;
+    background-color: #009a61;
+    border-color: #009a61;
+    cursor: default;
+}
+
+.prev{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #009a61;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+
+.next{
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    line-height: 1.5;
+    text-decoration: none;
+    color: #009a61;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-left: -1px;
+}
+/*下拉框的样式*/
+.drodownlistclass{
+  display:inline-block;
+  /*border-image-source: initial;
+  border-image-slice: initial;
+  border-image-width: initial;
+  border-image-outset: initial;
+  border-image-repeat: initial;
+  box-sizing: border-box;*/
+  cursor: pointer;
+  line-height: normal;
+  font-weight: normal;
+  width: 150px;
+  font-size: 14px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+  height: 31px;
+  text-align: center;
+}

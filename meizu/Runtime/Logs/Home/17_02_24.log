@@ -1,0 +1,980 @@
+[ 2017-02-24T10:01:51+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.071005s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0850s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0540s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.1020s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0570s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.014001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.014001s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.250014s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.250014s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.014001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.014001s ]
+
+[ 2017-02-24T10:02:00+08:00 ] 127.0.0.1 /mz/index.php/home/register/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.114006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.114006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T10:02:03+08:00 ] 127.0.0.1 /mz/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:11:01+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.037002s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0730s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0340s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.1020s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0380s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.394023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.394023s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:1.417081s ]
+INFO: [ view_parse ] --END-- [ RunTime:1.417081s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.043002s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.043002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.047003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.048003s ]
+
+[ 2017-02-24T15:12:39+08:00 ] 127.0.0.1 /mz/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:39+08:00 ] 127.0.0.1 /mz/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:42+08:00 ] 127.0.0.1 /mz/index.php/home/register/verify.html?0.7646865230246183
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:43+08:00 ] 127.0.0.1 /mz/index.php/home/register/verify.html?0.7646865230246183?0.5247266497907905
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:48+08:00 ] 127.0.0.1 /mz/index.php/home/login/checkverifycode.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-24T15:12:49+08:00 ] 127.0.0.1 /mz/index.php/home/login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select uid from user where username = 'admin' [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:49+08:00 ] 127.0.0.1 /mz/index.php/home/login/allowlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from user where username = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( username='admin' )  [ RunTime:0.0010s ]
+SQL: update user set login_time = '1487920369',login_ip = '127.0.0.1' where uid = '12' [ RunTime:0.0320s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:50+08:00 ] 127.0.0.1 /mz/index.php/home/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-24T15:12:50+08:00 ] 127.0.0.1 /mz/index.php/home/index/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:50+08:00 ] 127.0.0.1 /mz/index.php/home/index/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:51+08:00 ] 127.0.0.1 /mz/index.php/home/index/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:51+08:00 ] 127.0.0.1 /mz/index.php/home/index/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:54+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0180s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0270s ]
+SQL: select * from shop_goods_list where good_id = 43 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205,206' or attr_combine like '203,%,206' or attr_combine like '203,205,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 43 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-24T15:12:55+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:55+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:55+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:12:55+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-24T15:13:13+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '202,%,205' or attr_combine like '202,206,%') [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '202,206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:13:18+08:00 ] 127.0.0.1 /mz/index.php/home/car/entercar.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category where pid = 0 order by sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where attr_combine = '202,206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\CarController.class.php 第 123 行.
+SQL: select * from user_cars where gdlistid = '' and uid = 12 [ RunTime:0.0380s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\CarController.class.php 第 153 行.
+SQL: SHOW COLUMNS FROM `user_cars` [ RunTime:0.0020s ]
+ERR: 1048:Le champ 'gdlistid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `user_cars` (`uid`,`goodid`,`gdlistid`,`good_num`) VALUES ('12','43',NULL,'3')
+ERR: 1048:Le champ 'gdlistid' ne peut être vide (null)
+ [ SQL语句 ] : INSERT INTO `user_cars` (`uid`,`goodid`,`gdlistid`,`good_num`) VALUES ('12','43',NULL,'3')
+
+[ 2017-02-24T15:17:00+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/43.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 43 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205,206' or attr_combine like '203,%,206' or attr_combine like '203,205,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 43 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-02-24T15:17:00+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:17:00+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-02-24T15:17:00+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-02-24T15:17:00+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-02-24T15:17:03+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '202,%,205' or attr_combine like '202,206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '202,206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:06+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '202,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '202,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:06+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select attr_combine from shop_goods_list where good_id = '43' [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine = '203,205,206' or attr_combine = '202,204,207' or attr_combine = '202,205,206' or attr_combine = '202,205,207' or attr_combine = '203,204,206' or attr_combine = '203,204,207' or attr_combine = '202,204,206') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '205' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:07+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:08+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select attr_combine from shop_goods_list where good_id = '43' [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine = '203,205,206' or attr_combine = '202,204,207' or attr_combine = '202,205,206' or attr_combine = '202,205,207' or attr_combine = '203,204,206' or attr_combine = '203,204,207' or attr_combine = '202,204,206') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '205' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:08+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '203,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:09+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0230s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '203,%,205' or attr_combine like '203,206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,206,205' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:10+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '203,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:11+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '203,%,205' or attr_combine like '203,206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:25:11+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '203,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:26:30+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '203,%,205' or attr_combine like '203,206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,206,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:30:49+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = '43' and attr_combine = '203,206,205' and good_stock >= 2 [ RunTime:0.0000s ]
+
+[ 2017-02-24T15:34:50+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,205' or attr_combine like '203,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,205' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+
+[ 2017-02-24T15:34:51+08:00 ] 127.0.0.1 /mz/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_attr where good_id = 43 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 43 and good_stock != 0) and (attr_combine like '%,206,205' or attr_combine like '203,%,205' or attr_combine like '203,206,%') [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [8] Undefined variable: have D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 181 行.
+SQL: select * from shop_goods_list where good_id = 43 and attr_combine = '203,206,205' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 196 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\mz\meizu\Home\Controller\ShopdetailController.class.php 第 197 行.
+

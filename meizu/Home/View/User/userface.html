@@ -1,0 +1,110 @@
+   <div class="flymeContent"> 
+    <style type="text/css">
+	.navWrap{
+		height: 58px;
+		border-bottom: #e4e7e9 1px solid;
+	}
+	.navWrap .nav{
+		display: block;
+		float: left;
+		line-height: 58px;
+	}
+	.navWrap .nav li{
+		position: relative;
+		display: inline-block;
+		margin-right: 40px;
+		width: 100px;
+		height: 100%;
+		float: left;
+	}
+	.navWrap .nav li a{
+		display: inline-block;
+		width: 100%;
+		height: 56px;
+		font-size: 16px;
+		text-align: center;
+	}
+	.navWrap .nav .current{
+		margin: 0px auto;
+		height: 2px;
+		width: 100px;
+		overflow: hidden;
+		background-color: #1daeed;
+	}
+</style>
+    <div id="navWrap" class="navWrap"> 
+     <ul class="nav"> 
+      <li id="accountManage"><a href="https://i.flyme.cn/uc/webjsp/member/detail" class="linkABlue">账户管理</a>
+       <div class="current"></div></li> 
+      <li id="contact"><a href="https://pay.meizu.com/meibi/account" class="linkAGray">魅币</a></li> 
+     </ul> 
+    </div> 
+    <div class="clear"></div> 
+    <div id="mainWrap" class="mainWrap"> 
+     <div id="topWrap" class="topWrap"> 
+      <div class="top-leftWrap"> 
+       <span class="display fontBig">当前头像</span> 
+       <img id="userImg" src="http://<?php echo $_SERVER['HTTP_HOST'] ?>__ROOT__/<?php echo $_SESSION['face'] ?>" /> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+     <div class="grayBorderB"> 
+      <div class="titleWrap"> 
+       <div class="leftWrap-bottom"> 
+        <span class="fright">支持jpg、jpeg、png、bmp格式，文件小于5M</span> 
+        <span class="fontBig fleft">设置新头像</span> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div>
+     <style type="text/css">
+      
+      .meituxiuxiu{
+        margin: 0 auto;
+      }
+     </style>
+     <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.7.2.js"></script>
+  <!-- 美图秀秀头像上传接口 -->
+  <script src="http://open.web.meitu.com/sources/xiuxiu.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  window.onload=function(){
+    /*第1个参数是加载编辑器div容器，第2个参数是编辑器类型，第3个参数是div容器宽，第4个参数是div容器高*/
+    xiuxiu.embedSWF("altContent",5,"650px","440px");
+    //修改为您自己的图片上传接口
+    xiuxiu.setUploadURL('http://<?php echo $_SERVER["HTTP_HOST"] ?>__CONTROLLER__/facesave');
+    xiuxiu.setUploadType(2);
+    xiuxiu.setUploadDataFieldName("upload_file");  //文本控件的name
+    xiuxiu.onInit = function ()
+    {
+      <if condition="empty($_SESSION['face'])">
+        xiuxiu.loadPhoto("http://open.web.meitu.com/sources/images/1.jpg");//修改为要处理的图片url 初始的图片
+      <else/>
+        xiuxiu.loadPhoto("http://<?php echo $_SERVER['HTTP_HOST'] ?>__ROOT__/<?php echo $_SESSION['face'] ?>");//修改为要处理的图片url 初始的图片
+        // xiuxiu.loadPhoto("http://open.web.meitu.com/sources/images/1.jpg");//修改为要处理的图片url 初始的图片
+     </if>
+      
+    }
+
+
+    xiuxiu.onUploadResponse = function (data)
+    {
+      var dataobj = eval('(' + data + ')');
+      if(dataobj.error == 0){
+        $('#userImg').attr('src',dataobj.file_path);
+        // alert('头像修改成功' + dataobj.file_path);
+        alert('修改成功');
+        location.href="{:U('home/user/index')}";
+      }else{
+        alert('修改失败');
+      }
+    }
+  }
+  </script>
+     <div id="upload" class="uploadbox"> 
+      <div  id="altContent" class="meituxiuxiu"></div>
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+ </body>
+</html>

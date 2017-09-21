@@ -1,0 +1,65 @@
+<style>
+    .center {
+    display: table-cell;
+
+}
+</style>
+
+
+<div class="store-wrap">
+    <div class="crumbs">
+        <a href="{:U('home/index/index')}">
+            首页&gt;
+        </a>
+        <a href="javascript:void()">
+            我的商城&gt;
+        </a>
+        <a href="javascript:void()" class="active">
+            我的收藏
+        </a>
+    </div>
+    <div class="main clearfix">
+        <div class="left-nav f-fl">
+            <div class="nav-main"> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-orderCenter"></i>订单中心</a>
+              <a href="{:U('home/myorder/index')}" class="ml">我的订单</a>
+              <a href="{:U('home/car/index')}" class="ml" target="_blank">我的购物车</a> 
+              <a href="javascript:void()" class="ml ">我的意外保</a> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-selfCenter"></i>个人中心</a> 
+              <a href="{:U('home/address/addressmanage')}" class="ml">地址管理</a> 
+              <a href="" class="active ml">我的收藏</a>
+              <a href="javascript:;" class="ml ">消息提醒</a> 
+              <a href="{:U('home/feedback/index')}" class="ml">建议反馈</a> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-moneyCenter"></i>资产中心</a> 
+              <a href="javascript:;" class="ml ">我的优惠卷</a>
+              <a href="javascript:;" class="ml ">消息红包</a>
+              <a href="javascript:;" class="ml ">我的回购卷</a>
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-serverCenter"></i>服务中心</a>
+               <a href="javascript:;" class="ml ">退款</a>
+
+            </div> 
+        </div>
+        <div class="right-content f-fr">
+            <div class="order-main">
+               
+                <div class="type-tab-btn">
+                    <a href="{:U('home/myorder/index')}" class="allOrder <?php if(ACTION_NAME == 'index') echo 'active' ?>" data-type="-1">
+                        已收藏商品
+                        
+                    </a>
+                    
+                </div>
+                <?php if(!isset($_SESSION['nolike'])){ ?>
+                <?php foreach($res as $v){ ?>
+                   <div style="width:206.59px;height:286px;display:inline-block;padding-top:20px;" class="soso"><a href="{:U('home/shopdetail/index',array('good_id'=>$v['good_id']))}"><img src="__ROOT__/<?php echo $v['good_pic'];?>" alt="" width="166px" height="166px"></a><span style="display:inline-block;position:relative;margin-left:45px;margin-top:20px"><?php echo $v['good_name'];?></span></div>
+                   <?php } ?>
+               <?php }else{ ?>
+                 <h1 style="font-size:24px;color:#797979;text-align:center;line-height:400px">您暂无收藏的商品</h1>
+              <?php } ?>
+                
+               
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.7.2.js"></script>

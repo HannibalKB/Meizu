@@ -1,0 +1,97 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="/mz/Public/Admin/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/css/style.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/lib/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]>
+<link href="lib/font-awesome/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/mz/Public/Admin/lib/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]--><title>角色编辑</title>
+</head>
+<body>
+<div class="pd-20">
+  <form class="Huiform" id="form-role-add" action="<?php echo U('admin/role/editrole');?>" method="post">
+    <table class="table table-border table-bordered table-bg">
+      <tbody>
+        <tr>
+          <th class="text-r" width="70px">角色名称：</th>
+          <td><input name="title" type="text" class="input-text" id="rolenames"  datatype="*1-20" nullmsg="角色名称不能为空！" value="<?php echo $data[0]['title']; ?>"> 
+          <input type="hidden" value="<?php echo $_GET['id']; ?>" name="id">
+          </td>
+        </tr>
+        <tr>
+          <th class="text-r va-t">权限：</th>
+          <td>
+            <table class="table table-border table-bordered table-bg">
+              <tbody>
+              <?php  foreach ($res as $key => $value) { ?>
+                    <tr>
+                      <th width="100"><?php echo $value['cname'] ?></th>
+                      <td class="permission-list">
+                   
+                        <div class="cl">
+                        <?php
+ foreach ($value['cate'] as $k => $v) { ?>
+                              <label class="item" style="width:150px;"><input name="rules[]" type="checkbox" value="<?php echo $v['id'] ?>" <?php if(in_array($v['id'], $selected)) echo 'checked'; ?>> <?php echo $v['title'] ?></label>
+                            <?php
+ } ?>
+                        </div>
+                      </td>
+                    </tr>
+                  <?php
+ } ?>
+              <tr>
+                <th class="text-r va-t">描述：</th>
+                <td><textarea name="desc" class="textarea" id="desc"  placeholder="描述下角色所具有的权限"><?php echo $data[0]['desc']; ?></textarea> 
+                </td>
+              </tr>
+      
+              <tr>
+                <th></th>
+                <td>
+                  <button type="submit" class="btn btn-success radius" id="roleaddsave"><i class="icon-ok"></i> 确定</button>
+                </td>
+              </tr>
+            </tbody>
+    </table>
+  </form>
+</div>
+<script type="text/javascript" src="/mz/Public/Admin/lib/jquery.min.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/lib/Validform_v5.3.2.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/lib/layer1.8/layer.min.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/lib/laypage/laypage.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.admin.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.admin.doc.js"></script>
+<script type="text/javascript">
+  
+  $('#roleaddsave').click(function(event) {
+    if($('#rolenames').val() == ''){
+      layer.msg('角色名称不能为空！!',1);
+      return false;
+    }
+    if($('#desc').val() == ''){
+      layer.msg('描述不能为空!',1);
+      return false;
+    }
+  });
+
+</script>
+</body>
+</html>

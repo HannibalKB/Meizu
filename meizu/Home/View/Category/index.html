@@ -1,0 +1,157 @@
+  <link rel="stylesheet" href="__PUBLIC__/Home/css/main-37d634f.css">
+  <main class="wrapper" id="main"> 
+   <div class="container"> 
+    <section class="crumbs clearfix"> 
+     <a data-mtype="store_list_mbx_1" href="{:U('home/index/index')}">首页</a> &nbsp;&gt;&nbsp; 
+     <span class="crumbs-level" id="crumbsLevel">
+    
+     <?php echo $catename ?></span> 
+    </section> 
+    
+    <section class="goods-list" id="goodsList"> 
+     <ul class="goods-list-wrap clearfix" id="goodsListWrap">
+     <?php 
+      foreach ($res as $key => $value) {
+        ?>
+          <li class="gl-item"> 
+           <dl class="gl-item-wrap"> 
+            <dd class="mod-pic"> 
+             <a data-mtype="store_list_kw_1" target="_blank" href="{:U('home/shopdetail/index',array('good_id'=>$value['good_id']))}" title=""> <img width="220" height="220" src="__ROOT__/<?php echo $value['good_pic'] ?>" /> </a> 
+            </dd> 
+            <dd class="mod-name"> 
+             <a data-mtype="store_list_kw_1" target="_blank" href="{:U('home/shopdetail/index',array('good_id'=>$value['good_id']))}" title=""><?php echo $value['good_name'] ?></a> 
+            </dd> 
+            <dd class="mod-price"> 
+             <em>￥</em> 
+             <i><?php echo $value['good_marketprice'] ?></i> 
+            </dd> 
+           </dl> 
+          </li>
+        <?php
+      }
+     ?> 
+     </ul> 
+    </section> 
+    <section class="empty clearfix" id="empty" style="display:none;"> 
+     <div class="empty-bd"> 
+      <div class="empty-bd-pic"></div> 
+      <div class="empty-bd-info"> 
+       <h4 class="yahei">抱歉没有找到相关商品</h4> 
+       <p>建议您：<br /> 1.适当减少筛选条件<br /> 2.尝试其他关键字 </p> 
+      </div> 
+     </div> 
+    </section> 
+    <section class="pages" id="pages" style="display: none;"> 
+     <div class="ui-paginate"> 
+      <span class="p-prev disabled p-elem"></span> 
+      <span class="current p-elem">1</span> 
+      <span class="p-next disabled p-elem"></span> 
+     </div> 
+    </section> 
+    <!-- <section class="recommend" id="recommend"> 
+     <div class="recommend-hd"> 
+      <h2 class="mod-title">为您推荐</h2> 
+      <div class="mod-control" id="recommendDirectionNav"> 
+       <a class="vm-prev flex-prev flex-disabled" data-mtype="store_list_tj_a" href="http://lists.meizu.com/page/list?categoryid=76&amp;rc=cb#" id="J_recommendPrev" tabindex="-1"> <i> </i> </a> 
+       <a class="vm-next flex-next" data-mtype="store_list_tj_b" href="http://lists.meizu.com/page/list?categoryid=76&amp;rc=cb#" id="J_recommendNext"> <i></i> </a> 
+      </div> 
+     </div> 
+     <div class="recommend-slider" id="J_recommendSlider"> 
+      <div class="flex-viewport" style="overflow: hidden; position: relative;"> 
+       <ul class="recommend-slider-wrap" style="width: 2000%; transition-duration: 0s; transform: translate3d(0px, 0px, 0px);"> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_1" href="http://detail.meizu.com/item/meizu_pro6.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1460440311-70719.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">魅族PRO 6 </h4> 
+           <h6 class="vm-subtitle">每日10点起前100名赠EP-31耳机</h6> 
+           <p class="vm-price"> &yen;<span>123</span> </p> 
+          </div> <span class="mod-sign" style="background-color: #00afbe;"> 赠品 </span> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_2" href="http://detail.meizu.com/item/meizu_mx5e.html?skuid=699" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1452572130-53664.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">魅族MX5e 经典版 </h4> 
+           <h6 class="vm-subtitle">标配EP-21HD耳机</h6> 
+           <p class="vm-price"> &yen;<span>1499</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_3" href="http://detail.meizu.com/item/Misfit_Ray.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1465268938-21192.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">Misfit Ray智能手环运动腕带版 </h4> 
+           <h6 class="vm-subtitle">无需充电 来电提醒 音乐自拍</h6> 
+           <p class="vm-price"> &yen;<span>599</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_4" href="http://detail.meizu.com/item/FiiO_M3.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1468053351-98445.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">飞傲M3 无损音乐播放器 </h4> 
+           <h6 class="vm-subtitle">HIFI发烧MP3 随身小神器</h6> 
+           <p class="vm-price"> &yen;<span>348</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_5" href="http://detail.meizu.com/item/keychain.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1463018844-49000.png@680x680.jpg" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">魅族熊猫金属钥匙扣 </h4> 
+           <h6 class="vm-subtitle">能当艺术品的钥匙扣 才是好熊猫</h6> 
+           <p class="vm-price"> &yen;<span>39</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_6" href="http://store.meizu.com/item/meilan_note2.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1434331338-80202.jpg" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">魅蓝 note2 </h4> 
+           <h6 class="vm-subtitle">64位八核 5.5英寸1080P屏幕</h6> 
+           <p class="vm-price"> &yen;<span>799</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_7" href="http://detail.meizu.com/item/SAMSUNG_SSD750.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1465176533-98619.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">三星 750 EVO SATA3 固态硬盘 </h4> 
+           <h6 class="vm-subtitle">买即送铭摩印象第三代自拍杆</h6> 
+           <p class="vm-price"> &yen;<span>318</span> </p> 
+          </div> <span class="mod-sign" style="background-color: #00afbe;"> 赠品 </span> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_8" href="http://detail.meizu.com/item/lexin_A3.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1463046308-78627.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">乐心体重秤A3 蓝牙传输 微信互联 </h4> 
+           <h6 class="vm-subtitle">微信互联 无需下载APP</h6> 
+           <p class="vm-price"> &yen;<span>59</span> </p> 
+          </div> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_9" href="http://detail.meizu.com/item/lexingtianxia_V5jia.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1467601523-20459.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">乐行天下V5+智能电动独轮车 </h4> 
+           <h6 class="vm-subtitle">40公里续航 买即送魅族EP51耳机</h6> 
+           <p class="vm-price"> &yen;<span>2899</span> </p> 
+          </div> <span class="mod-sign" style="background-color: #00afbe;"> 赠品 </span> </a> </li> 
+        <li class="rs-item" style="width: 245.6px; margin-right: 5px; float: left; display: block;"> <a class="rs-item-wrap" data-mtype="sotre_list_tj_10" href="http://detail.meizu.com/item/ORICO_UCH_4U.html" target="_blank"> 
+          <div class="mod-pic"> 
+           <img src="./category_files/1468064791-68914.png" width="180" height="180" draggable="false" /> 
+          </div> 
+          <div class="mod-desc"> 
+           <h4 class="vm-title">ORICO 4口USB车充头 </h4> 
+           <h6 class="vm-subtitle">4个SuperCharge™智能USB</h6> 
+           <p class="vm-price"> &yen;<span>79</span> </p> 
+          </div> </a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+    </section>  -->
+   </div> 
+  </main>

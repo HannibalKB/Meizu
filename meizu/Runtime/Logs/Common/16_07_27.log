@@ -1,0 +1,12 @@
+[ 2016-07-27T14:12:00+08:00 ] ::1 /meizushangchengtpnew/index.php/amdin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Amdin
+
+[ 2016-07-27T23:09:04+08:00 ] ::1 /meizushangchengtpnew/index.php/amdin/shop/shopSkuImg.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Amdin
+

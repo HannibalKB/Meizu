@@ -1,0 +1,133 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="renderer" content="webkit|ie-comp|ie-stand">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--[if lt IE 9]>
+<script type="text/javascript" src="lib/html5.js"></script>
+<script type="text/javascript" src="lib/respond.min.js"></script>
+<script type="text/javascript" src="lib/PIE_IE678.js"></script>
+<![endif]-->
+<link href="/mz/Public/Admin/css/H-ui.min.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/css/H-ui.admin.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/lib/icheck/icheck.css" rel="stylesheet" type="text/css" />
+<link href="/mz/Public/Admin/lib/font-awesome/font-awesome.min.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7]>
+<link href="lib/font-awesome/font-awesome-ie7.min.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<link href="/mz/Public/Admin/lib/iconfont/iconfont.css" rel="stylesheet" type="text/css" />
+<!--[if IE 6]>
+<script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js" ></script>
+<script>DD_belatedPNG.fix('*');</script>
+<![endif]-->
+<title>添加用户</title>
+</head>
+<body>
+<div class="pd-20">
+  <form action="<?php echo U('admin/admin/editadmin');?>" method="post" class="form form-horizontal" id="mainForm">
+    <div class="row cl">
+      <input type="hidden" name="uid" value="<?php echo $_GET['uid'] ?>" id="uid">
+      <label class="form-label col-3">所属角色：</label>
+      <div class="formControls col-5"> <span class="select-box">
+         <select class="select" name="group_id" size="1" id="group_id">
+          <?php
+ foreach ($roleres as $key => $value) { ?>
+                 <option 
+                    <?php  if($adminRes[0]['group_id'] == $value['id']) echo 'selected'; ?>
+                  value="<?php echo $value['id']; ?>"><?php echo $value['title'] ?></option>
+               <?php
+ } ?>  
+           
+        </select>
+        </span> </div>
+      <div class="col-4"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>管理员名称：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="<?php echo $adminRes[0]['username'] ?>" placeholder="管理员名称" id="username" name="username" >
+      </div>
+      <div class="col-4"> </div>
+    </div>
+
+  
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>管理员密码：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text" value="<?php echo $adminRes[0]['password'] ?>"  placeholder="管理员密码,如不改变密码可不填写" name="password" id="password">
+      </div>
+      <div class="col-4"> </div>
+    </div>
+
+    <div class="row cl">
+      <label class="form-label col-3"><span class="c-red">*</span>确认密码：</label>
+      <div class="formControls col-5">
+        <input type="text" class="input-text"  placeholder="取人密码,如不改变密码可不填写" name="confirmpassword" id="confirmpassword">
+      </div>
+      <div class="col-4"> </div>
+    </div>
+    
+   
+    <div class="row cl">
+      <div class="col-9 col-offset-3">
+        <input class="btn btn-primary radius" type="button" id="sumbtn" value="&nbsp;&nbsp;提交&nbsp;&nbsp;">
+      </div>
+    </div>
+  
+  </form>
+</div>
+</div>
+<script type="text/javascript" src="/mz/Public/Admin/lib/jquery.min.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/lib/icheck/jquery.icheck.min.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/lib/Validform_v5.3.2.js"></script>
+<!-- 关闭窗口需要这2个文件 -->
+<script type="text/javascript" src="/mz/Public/Admin/lib/layer1.8/layer.min.js"></script>  
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.js"></script> 
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.admin.js"></script>
+<!-- 关闭窗口需要这2个文件 -->
+<script type="text/javascript" src="/mz/Public/Admin/js/H-ui.admin.doc.js"></script> 
+
+<script type="text/javascript">
+  $(document).ready(function() {
+    $('#sumbtn').click(function(event) {
+      if($('#username').val() == ''){
+        layer.msg('管理员名称不能为空',1);
+        return false;
+      }
+      if($('#password').val() != $('#confirmpassword').val()){
+        layer.msg('两次密码不一致',1);
+        return false;
+      }
+      var addInfo = {
+        username : $('#username').val(),
+        password : $('#confirmpassword').val(),
+        uid : $('#uid').val(),
+      }
+
+      var layerobj = layer;
+      $.ajax({
+        url: '<?php echo U("admin/admin/isexitusernamenotself");?>',
+        type: 'POST',
+        dataType: 'json',
+        data: {data: addInfo},
+        success:function(data){
+          if(data.error == 1){
+            layerobj.msg('帐户名已经存在',1);
+          }else if(data.error == 0){
+            $('#mainForm').submit();
+          }
+        },
+        error:function(){
+
+        },
+      })
+    });
+
+  });
+</script> 
+</body>
+</html>

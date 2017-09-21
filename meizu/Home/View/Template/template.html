@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="utf-8" /> 
+  <meta http-equiv="x-ua-compatible" content="ie=edge" /> 
+  
+  <!-- 标题模板区块 -->
+  <block name="title">
+    <title>魅族商城-提供魅族PRO系列、魅族MX系列和魅蓝系列产品的预约和购买</title> 
+  </block>
+
+  <meta name="viewport" content="width=1240, initial-scale=1" /> 
+  <link href="./ico/favicon.ico" rel="shortcut icon" type="image/x-icon" /> 
+  <link href="./ico/favicon.ico" rel="icon" type="image/x-icon" /> 
+  <meta name="description" content="魅族商城是魅族面向全国服务的官方电子商务平台,提供魅族PRO系列、魅族MX系列和魅蓝系列等产品的预约和购买.官方正品,全国联保。" /> 
+  <meta name="Keywords" content="魅族官方在线商店、魅族在线商城、魅族官网在线商店、魅族商城" /> 
+  <meta property="qc:admins" content="4150776417256551256375" />
+    
+  <link rel="stylesheet" href="__PUBLIC__/Home/css/site-base.css-_dv=20160505.css"/> 
+  <link rel="stylesheet" href="__PUBLIC__/Home/css/pkg-home.css-_dv=201512171700.css"  /> 
+
+  <!-- 样式区块 -->
+  <block name="css">
+    
+  </block>
+
+ </head> 
+ <body> 
+  <div class="site-topbar clearfix"> 
+   <div class="mzcontainer"> 
+    <div class="topbar-nav"> 
+     <a href="#" target="_blank">魅族官网</a> 
+     <a href="index.html" tppabs="http://store.meizu.com/index.html">魅族商城</a> 
+     <a href="#" target="_blank">Flyme</a> 
+     <a href="#" tppabs="http://retail.meizu.com/index.html" target="_blank">专卖店</a> 
+     <a href="#" tppabs="http://service.meizu.com/index.html" target="_blank">服务</a> 
+     <a href="{:U('bbs/index/index')}" tppabs="http://bbs.meizu.cn/" target="_blank">社区</a> 
+    </div> 
+    <div class="topbar-right"> 
+     <ul class="topbar-info"> 
+      <li class="topbar-info-msg" id="MzTopbarMsg"> <a class="topbar-link" href="#" tppabs="http://store.meizu.com/member/message/index" target="_blank">消息</a> <span class="msg-tag" id="MzMsgTag"></span> </li> 
+      <li class="topbar-order-msg"> <a class="topbar-link" href="#" tppabs="http://store.meizu.com/member/myorder/index" target="_blank">我的订单</a> <span class="msg-tag" id="MzOrderMsgTag"></span> </li> 
+      <li class="mz_login"> <a class="topbar-link site-login" href="#" tppabs="https://member.meizu.com/login/login.html?appuri=http://store.meizu.com/accounts/login.htm&amp;sid=&amp;service=store&amp;useruri=">登录</a> </li> 
+      <li class="mz_login"> <a class="topbar-link" href="#" tppabs="https://member.meizu.com/register" target="_blank">注册</a> </li> 
+      <li class="topbar-info-member" style="display:none;"> <a class="topbar-link" href="#" tppabs="http://store.meizu.com/member/index" target="_blank"> <span id="MzUserName" class="site-member-name">MEIZU</span>的商城 </a> 
+       <div class="site-member-items"> 
+        <a class="site-member-link" href="#" tppabs="http://store.meizu.com/member/address/index" target="_blank">地址管理</a> 
+        <a class="site-member-link" href="#" tppabs="http://store.meizu.com/member/repurchase_ticket/index" target="_blank">我的回购券</a> 
+        <a class="site-member-link" href="#" tppabs="http://store.meizu.com/member/suggest/index" target="_blank">问题反馈</a> 
+        <a class="site-member-link site-logout" href="#" tppabs="http://store.meizu.com/accounts/logout.htm?useruri=" data-href="#">退出</a> 
+       </div> </li> 
+     </ul> 
+     <div class="topbar-info-pop"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="site-header"> 
+   <div class="mzcontainer"> 
+    <div class="header-logo"> 
+     <a href="#" target="_blank"> <img src="./images/logo-header.png" tppabs="./images/logo-header.png" srcset="./images/logo-header@2x.png 2x" width="115" height="20" alt="魅族科技" /> </a> 
+    </div> 
+    <div class="header-nav"> 
+     <ul class="nav-list"> 
+      <li class="nav-item"> <a class="nav-item-link" href="javascrip:" onclick="return false" target="_blank">PRO手机 </a> 
+       <div class="nav-item-children"> 
+        <ul class="menu-product-list"> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://alad.meizu.com/buying/pro6.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./init-1x1.jpg" tppabs="./images/1460535119@126x126.png" data-src="./images/1460535119@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">PRO 6</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>123</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_pro5.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450928403@126x126.png" data-src="./images/1450928403@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">PRO 5</p> <p class="menu-product-price"> <span class="originPrice">&yen;2799</span> &yen; <span>123</span> </p> </a> </li> 
+         <!-- more --> 
+        </ul> 
+       </div> </li> 
+      <li class="nav-item"> <a class="nav-item-link" href="javascrip:" onclick="return false" target="_blank">魅蓝手机 </a> 
+       <div class="nav-item-children"> 
+        <ul class="menu-product-list"> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://alad.meizu.com/buying/meilan3.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="../images/init-1x1.jpg" tppabs="./images/1461569198@126x126.png" data-src="./images/1461569198@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅蓝3</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>599</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://alad.meizu.com/buying/yd.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1459927797@126x126.png" data-src="./images/1450928073@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅蓝 note3</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>799</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meilan_metal.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450928073@126x126.png" data-src="./images/1450928073@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅蓝 metal</p> <p class="menu-product-price"> <span class="originPrice">&yen;1099</span> &yen; <span>999</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meilan_note2.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450928118@126x126.png" data-src="./images/1450928118@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅蓝 note2</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>799</span> </p> </a> </li> 
+         <!-- more --> 
+        </ul> 
+       </div> </li> 
+      <li class="nav-item"> <a class="nav-item-link" href="javascrip:" onclick="return false" target="_blank">MX手机 </a> 
+       <div class="nav-item-children"> 
+        <ul class="menu-product-list"> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_mx5.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450928272@126x126.png" data-src="./images/1450928272@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">MX5</p> <p class="menu-product-price"> <span class="originPrice">&yen;1699</span> &yen; <span>1499</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_mx5e.html?rc=sd" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1459845748@126x126.png" data-src="./images/1459845748@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">MX5e 经典版</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>1499</span> </p> </a> </li> 
+         <!-- more --> 
+        </ul> 
+       </div> </li> 
+      <li class="nav-item"> <a class="nav-item-link" href="javascrip:" onclick="return false" target="_blank">精选配件 </a> 
+       <div class="nav-item-children"> 
+        <ul class="menu-product-list"> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_ep51.html?skuid=696" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1460532110@126x126.png" data-src="./images/1460532110@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族 EP51蓝牙运动耳机</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>269</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_hd50.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1458266094@126x126.png" data-src="./images/1458266094@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族 HD50 头戴式耳机</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>399</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/mpower_m8e.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450937395@126x126.png" data-src="./images/1450937395@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族移动电源（标准版）</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>99</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/m10_dianyuan.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450937433@126x126.png" data-src="./images/1450937433@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族移动电源 快充版</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>149</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/ep21hd.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1451038228@126x126.png" data-src="./images/1451038228@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族 EP-21HD 耳机</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>129</span> </p> </a> </li> 
+         <!-- more --> 
+         <li class="menu-product-more"> 
+          <div class="menu-more-links"> 
+           <ul> 
+            <li><a href="#" tppabs="http://store.meizu.com/pages/lists?categoryid=79&amp;rc=sdsd" target="_blank">耳机 / 音箱</a></li> 
+            <li><a href="#" tppabs="http://store.meizu.com/pages/lists?categoryid=80&amp;rc=sd" target="_blank">路由器 / 移动电源</a></li> 
+            <li><a href="#" tppabs="http://store.meizu.com/pages/lists?categoryid=81&amp;rc=sd" target="_blank">保护套 / 后盖 / 贴膜</a></li> 
+            <li><a href="#" tppabs="http://store.meizu.com/pages/lists?categoryid=82&amp;rc=sd" target="_blank">数据线 / 电源适配器</a></li> 
+            <li><a href="#" tppabs="http://store.meizu.com/pages/lists?categoryid=83&amp;rc=sd" target="_blank">周边配件</a></li> 
+           </ul> 
+          </div> 
+          </li> 
+        </ul> 
+       </div> </li> 
+      <li class="nav-item"> <a class="nav-item-link" href="javascrip:" onclick="return false" target="_blank">智能硬件 </a> 
+       <div class="nav-item-children"> 
+        <ul class="menu-product-list"> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/CILINE_2_5LKP.html?skuid=632" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1465350128@126x126.png" data-src="./images/1465350128@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">CILINE-沁麟2.5L智能靠谱煲</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>299</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/lexin_mambo_HR.html?skuid=975" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1464228499@126x126.png" data-src="./images/1464228499@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">乐心运动手环mambo HR</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>169</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/lefan_AirPet.html?skuid=1055" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="../images/init-1x1.jpg" tppabs="./images/1465350179@126x126.png" data-src="./images/1464228499@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">乐范AirPet 空气净化器</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>299</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/meizu_luyouqi.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1450937728@126x126.png" data-src="./images/1450937728@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">魅族智能路由器</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>99</span> 起 </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/NGDSN1pro.html?skuid=614" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1460615624@126x126.png" data-src="./images/1460615624@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">N1pro新游智能游戏手柄</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>119</span> </p> </a> </li> 
+         <li class="menu-product-item"> <a href="#" tppabs="http://store.meizu.com/item/MJ4_01.html" target="_blank"> 
+           <div class="menu-product-figure"> 
+            <img src="./images/init-1x1.jpg" tppabs="./images/1464528539@126x126.png" data-src="./images/1464528539@126x126.png" width="100" height="150" /> 
+           </div> <p class="menu-product-name">暴风魔镜4 Android版 MJ4-01</p> <p class="menu-product-price"> <span class="originPrice"></span> &yen; <span>199</span> </p> </a> </li> 
+         <!-- more --> 
+        </ul> 
+       </div> </li> 
+     </ul> 
+    </div> 
+    <div class="header-cart" id="MzHeaderCart"> 
+     <a href="#" tppabs="http://store.meizu.com/cart" target="_blank"> 
+      <div class="header-cart-wrap"> 
+       <span class="header-cart-icon"></span> 购物车 
+       <span id="MzHeaderCartNum" class="header-cart-num" data-extcls="existence">0</span> 
+       <div class="header-cart-spacer"></div> 
+      </div> </a> 
+     <div class="header-cart-detail"> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="MzNavMenu" class="header-nav-menu"> 
+    <div class="mzcontainer"> 
+    </div> 
+   </div> 
+  </div>
+  
+  <!-- 这里是中间内容区域 -->
+  <block name="main">
+    待放中间的主题内容 
+  </block>
+
+  <div class="site-footer"> 
+   <div class="mzcontainer"> 
+    <div class="site-footer-service"> 
+     <ul class="clearfix"> 
+      <li class="service-item"> <span class="service-icon service-icon-seven"></span> <p class="service-desc"> <span class="service-desc-bold">7天</span> <span class="service-desc-normal">无理由退货</span> </p> </li> 
+      <li class="service-split-line"> <span></span> </li> 
+      <li class="service-item"> <span class="service-icon service-icon-fifty"></span> <p class="service-desc"> <span class="service-desc-bold">15天</span> <span class="service-desc-normal">换货保障</span> </p> </li> 
+      <li class="service-split-line"> <span></span> </li> 
+      <li class="service-item"> <span class="service-icon service-icon-one"></span> <p class="service-desc"> <span class="service-desc-bold">1年</span> <span class="service-desc-normal">免费保修</span> </p> </li> 
+      <li class="service-split-line"> <span></span> </li> 
+      <li class="service-item"> <span class="service-icon service-icon-speed"></span> <p class="service-desc"> <span class="service-desc-bold">百城</span> <span class="service-desc-normal">速达</span> </p> </li> 
+      <li class="service-split-line"> <span></span> </li> 
+      <li class="service-item"> <span class="service-icon service-icon-by"></span> <p class="service-desc"> <span class="service-desc-bold">全场</span> <span class="service-desc-normal">包邮</span> </p> </li> 
+      <li class="service-split-line"> <span></span> </li> 
+      <li class="service-item"> <span class="service-icon service-icon-map"></span> <p class="service-desc"> <span class="service-desc-bold">2000多家</span> <span class="service-desc-normal">专卖店</span> </p> </li> 
+     </ul> 
+    </div> 
+    <div class="site-footer-navs clearfix"> 
+     <div class="footer-nav-item"> 
+      <h4 class="footer-nav-title">帮助说明</h4> 
+      <ul> 
+       <li><a href="#" target="_blank">支付方式</a></li> 
+       <li><a href="#" target="_blank">配送说明</a></li> 
+       <li><a href="#" target="_blank">售后服务</a></li> 
+       <li><a href="#" target="_blank">付款帮助</a></li> 
+      </ul> 
+     </div> 
+     <div class="footer-nav-item"> 
+      <h4 class="footer-nav-title">Flyme</h4> 
+      <ul> 
+       <li><a target="_blank" href="#" tppabs="https://cloud.flyme.cn/">云服务</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://www.flyme.cn/firmware.jsp">固件下载</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://app.flyme.cn/">软件商店</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://finder.flyme.cn/">查找手机</a></li> 
+      </ul> 
+     </div> 
+     <div class="footer-nav-item"> 
+      <h4 class="footer-nav-title">关于我们</h4> 
+      <ul> 
+       <li><a target="_blank" href="#" tppabs="http://www.meizu.com/about.html">关于魅族</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://hr.meizu.com/">加入我们</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://www.meizu.com/contact.html">联系我们</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://www.meizu.com/legalStatement.html">法律声明</a></li> 
+      </ul> 
+     </div> 
+     <div class="footer-nav-item"> 
+      <h4 class="footer-nav-title">关注我们</h4> 
+      <ul> 
+       <li><a target="_blank" href="#" tppabs="http://weibo.com/meizumobile">新浪微博</a></li> 
+       <li><a target="_blank" href="j#" tppabs="http://t.qq.com/meizu_tech">腾讯微博</a></li> 
+       <li><a target="_blank" href="#" tppabs="http://user.qzone.qq.com/2762957059">QQ空间</a></li> 
+       <li> <a class="meizu-footer-wechat"> 官方微信 <img src="../www2.res.meizu.com/zh_cn/images/common/weixin.png-v=2015" tppabs="http://www2.res.meizu.com/zh_cn/images/common/weixin.png?v=2015" alt="微信二维码" /> </a> </li> 
+      </ul> 
+     </div> 
+     <div class="footer-nav-custom"> 
+      <h4 class="nav-custom-title">24小时全国服务热线</h4> 
+      <a href="tel:400-788-3333"><h3 class="nav-custom-number">400-788-3333</h3></a> 
+      <a class="nav-custom-btn" href="javascript:void(0);" onclick="window.open('http://live-i.meizu.com/live800/chatClient/chatbox.jsp?companyID=8957&amp;configID=4&amp;enterurl='+ encodeURIComponent(document.URL) + '&amp;pagereferrer=' + encodeURIComponent(document.referrer) + '&amp;info=&amp;k=1', '_blank','height=775,width=1200,fullscreen=3,top=100,left=100,status=yes,toolbar=no,menubar=no,resizable=no,scrollbars=no,location=no,titlebar=no,fullscreen=no');"> <img src="./images/20x21xiaoshi.png" tppabs="http://store.res.meizu.com/resources/php/store/static/common/widgets/site-footer/20x21xiaoshi.png" width="20" height="21" /> 24小时在线客服 </a> 
+     </div> 
+    </div> 
+    <div class="site-footer-end"> 
+     <p> &copy;2016 Meizu Telecom Equipment Co., Ltd. All rights reserved. <a target="_blank" href="#'))window.location='http://www.miitbeian.gov.cn/'" tppabs="http://www.miitbeian.gov.cn/" hidefocus="true">备案号：粤ICP备13003602号-2</a> <a target="_blank" href="#" tppabs="http://www2.res.meizu.com/zh_cn/images/common/icp2.jpg" hidefocus="true">经营许可证编号：粤B2-20130198</a> <a target="_blank" href="#" tppabs="http://www2.res.meizu.com/zh_cn/images/common/com_licence.jpg" hidefocus="true">营业执照</a> <a target="_blank" rel="nofollow" href="#" tppabs="http://210.76.65.188/" hidefocus="true"> <img src="./images/footer-copy-1.png" tppabs="http://www2.res.meizu.com/zh_cn/images/common/footer-copy-1.png" /> </a> <a target="_blank" rel="nofollow" href="j#" tppabs="http://210.76.65.188/webrecord/innernet/Welcome.jsp?bano=4404013010531" hidefocus="true"> <img src="./images/footer-copy-2.png" tppabs="http://www2.res.meizu.com/zh_cn/images/common/footer-copy-2.png" /> </a> <a target="_blank" rel="nofollow" href="j#" tppabs="https://credit.szfw.org/CX20151204012550820380.html" hidefocus="true"> <img src="./images/trust-icon.png" tppabs="http://store.res.meizu.com/resources/php/store/static/common/widgets/site-footer/trust-icon.png" /> </a> </p> 
+    </div> 
+   </div> 
+  </div> 
+  <script charset="utf-8" src="__PUBLIC__/Home/js/site-lib.js-_dv=20160505" tppabs="__PUBLIC__/Home/js/site-lib.js?_dv=20160505"></script> 
+  <script type="text/javascript" src="__PUBLIC__/Home/js/site-base.js-_dv=20160505" tppabs="__PUBLIC__/Home/js/site-base.js?_dv=20160505"></script> 
+  <script>var $=require("common:lib/jquery/jquery-1.11.3");require("common:lib/jquery/jquery-migrate-1.2.1"),window.$=$,window.jQuery=$,window.jquery=$,$(function(){require("common:widgets/site-topbar/topbar"),require("common:widgets/site-header/header")});</script> 
+  <script type="text/javascript" src="./js/pkg-home.js-_dv=201512171700" tppabs="./js/pkg-home.js?_dv=201512171700"></script> 
+  <script charset="utf-8">var $=require("common:lib/jquery/jquery-1.11.3");$(function(){require("home:widgets/settlement-ad/settlement-ad"),require("home:widgets/home-slider/home-slider"),require("home:widgets/home-recommend/home-recommend"),require("home:widgets/home-category/home-category"),require("home:widgets/home-gotop/home-gotop"),require("home:js/jquery.lazyload/jquery.lazyload"),$("img.home-img-lazy").lazyload({})});</script> 
+  <script>
+ 
+  </script>
+  
+
+  <!-- js区块 -->
+  <block name="js">
+    
+  </block>
+
+  <img src="../databank.yoyi.com.cn/e.gif-mon=15510f9fbd8.gif" tppabs="http://databank.yoyi.com.cn/e.gif?mon=15510f9fbd8" style="width:0px;height:0px;" />   
+ </body>
+</html>

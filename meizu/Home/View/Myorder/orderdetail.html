@@ -1,0 +1,285 @@
+<div class="store-wrap"> 
+ <div class="crumbs"> 
+  <a href="{:U('home/index/index')}">首页&gt;</a> 
+  <a href="javascript()">我的商城&gt;</a> 
+  <a href="{:U('home/myorder/index')}">我的订单&gt;</a> 
+  <a href="javascript:void()" class="active"><?php echo $orderRes[0]['order_code'] ?></a> 
+ </div> 
+ <div class="main clearfix"> 
+  <div class="left-nav f-fl">
+      <div class="nav-main"> 
+        <a href="javascript:;" class="type-title"><i class="iconfont icon-orderCenter"></i>订单中心</a>
+        <a href="{:U('home/myorder/index')}" class="ml active">我的订单</a>
+        <a href="{:U('home/car/index')}" class="ml" target="_blank">我的购物车</a> 
+        <a href="javascript:void()" class="ml ">我的意外保</a> 
+        <a href="javascript:;" class="type-title"><i class="iconfont icon-selfCenter"></i>个人中心</a> 
+        <a href="{:U('home/address/addressmanage')}" class="ml">地址管理</a> 
+        <a href="javascript:;" class="ml ">我的收藏</a> 
+        <a href="javascript:;" class="ml ">消息提醒</a> 
+        <a href="{:U('home/feedback/index')}" class="ml">建议反馈</a> 
+        <a href="javascript:;" class="type-title"><i class="iconfont icon-moneyCenter"></i>资产中心</a> 
+        <a href="javascript:;" class="ml ">我的优惠卷</a>
+        <a href="javascript:;" class="ml ">消息红包</a>
+        <a href="javascript:;" class="ml ">我的回购卷</a>
+        <a href="javascript:;" class="type-title"><i class="iconfont icon-serverCenter"></i>服务中心</a>
+        <a href="javascript:;" class="ml ">退款</a> 
+      </div> 
+  </div> 
+  <div class="right-content f-fr"> 
+   <div class="orderDetail-main"> 
+    <!--<div class="title">我的订单</div>--> 
+    <div class="type-tab-btn"> 
+     <a href="javascript:;" class="active">订单详情</a> 
+    </div> 
+    <div class="process"> 
+    <hr class="cercel4">
+    <hr class="covering cercel4" style="width:0%;">
+     <ul class="line-time clearfix">
+     <?php  
+      if($orderRes[0]['status'] == 0){
+        ?>
+          <li class="s-01 active">提交订单<br><?php echo $orderRes[0]['order_time'] ?></li>
+
+          <li class="">买家已付款</li> 
+          <li class="">发货中</li> 
+          <li class="">交易成功</li>
+        <?php
+      }elseif($orderRes[0]['status'] == 1){
+        ?>
+          <li class="active">提交订单<br><?php echo $orderRes[0]['order_time'] ?></li> 
+          <li class="active">买家已付款</li> 
+          <li class="">发货中</li> 
+          <li class="">交易成功</li>
+        <?php
+      }elseif($orderRes[0]['status'] == 2){
+        ?>
+          <li class="active">提交订单</li> 
+          <li class="active">买家已付款</li> 
+          <li class="active">发货中</li> 
+          <li class="">交易成功</li>
+        <?php
+      }elseif($orderRes[0]['status'] == 3){
+        ?>
+          <li class="">提交订单</li> 
+          <li class="">买家已付款</li> 
+          <li class="">发货中</li> 
+          <li class="">交易成功</li>
+        <?php
+      }elseif($orderRes[0]['status'] == 4){
+        ?>
+          <li class="active">提交订单</li> 
+          <li class="active">买家已付款</li> 
+          <li class="active">发货中</li> 
+          <li class="active">交易成功</li>
+        <?php
+      }
+     ?> 
+       
+     </ul> 
+<!--      <ul class="line-time clearfix"> 
+      <li class="active">2016-08-01 10:42:21</li> 
+      <li class=""></li> 
+      <li class=""></li> 
+      <li class=""></li> 
+     </ul>  -->
+    </div>
+    <?php
+      if($orderRes[0]['status'] == '0'){ 
+        ?>
+           <div class="item info status"> 
+             <div class="goPay clearfix order-item" > 
+              <div class="left f-fl"> 
+                <p>
+                  <span class="order-status">订单状态：</span>
+                  <span class="red">未付款</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                  <span>应付金额：<i class="red">￥599.00</i>
+                  </span><br>
+                  <span style="font-size:15px;color:red">23小时56分钟37秒 <span style="font-size:15px;color:black">内未付款，将自动取消订单</span></span>
+                </p> 
+              </div> 
+              <div class="right f-fr"> 
+               <a class="payNow opreat-btn" target="_blank" href="{:U('home/order/payment',array('id'=>$orderRes[0]['order_id']))}">立即付款</a> 
+               <a class="cancel right opreat-btn" href="javascript:;">取消订单</a> 
+              </div> 
+             </div>
+            </div>
+        <?php
+      }elseif($orderRes[0]['status'] == '1'){
+        ?>
+          <div class="item info status"> 
+           <div class="goPay clearfix order-item" style="background: #fafafc;border-color: #eee;"> 
+            <div class="left f-fl"> 
+              <p>
+                <span class="order-status">订单状态：</span>
+                <span class="red">已付款等待发货</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>金额：<i class="red">￥<?php echo $orderRes[0]['order_price'] ?>.00</i>
+                </span>
+              </p> 
+            <!--  <p class="line2"> <span class="gray"><span class="contents _timer red"> 23小时55分钟38秒 </span>内未付款，将自动取消订单。</span> </p> --> 
+            </div> 
+            
+           </div>
+          </div>
+        <?php
+      }elseif($orderRes[0]['status'] == '2'){
+        ?>
+          <div class="item info status"> 
+           <div class="goPay clearfix order-item" style="background: #fafafc;border-color: #eee;"> 
+            <div class="left f-fl"> 
+              <p>
+                <span class="order-status">订单状态：</span>
+                <span class="red">商品已发货</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>金额：<i class="red">￥<?php echo $orderRes[0]['order_price'] ?>.00</i>
+                </span>
+              </p> 
+            
+            </div> 
+            <div class="right f-fr"> 
+            
+             <a class="payNow opreat-btn"  href="javascript:void()" onclick="if(confirm('已收到货，请点击确认！')){ this.href='{:U('home/myorder/confirmget',array('orderid'=>$orderRes[0]['order_id']))}' }">确认收货</a> 
+            </div> 
+           </div>
+          </div>
+        <?php
+      }elseif($orderRes[0]['status'] == '3'){
+        ?>
+          <div class="item info status"> 
+           <div class="goPay clearfix order-item" style="background: #fafafc;border-color: #eee;"> 
+            <div class="left f-fl"> 
+              <p>
+                <span class="order-status">订单状态：</span>
+                <span class="red">订单已取消</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>金额：<i class="red">￥<?php echo $orderRes[0]['order_price'] ?>.00</i>
+                </span>
+              </p> 
+            </div> 
+           </div>
+          </div>
+        <?php
+      }elseif($orderRes[0]['status'] == '4'){
+        ?>
+          <div class="item info status"> 
+           <div class="goPay clearfix order-item" style="background: #fafafc;border-color: #eee;"> 
+            <div class="left f-fl"> 
+              <p>
+                <span class="order-status">订单状态：</span>
+                <span class="red">订单已完成,收货成功</span>&nbsp;&nbsp;&nbsp;&nbsp;
+                <span>金额：<i class="red">￥<?php echo $orderRes[0]['order_price'] ?>.00</i>
+                </span>
+              </p> 
+            </div> 
+           </div>
+          </div>
+        <?php
+      }
+    ?>
+      
+
+
+    <div class="item product" id="products"> 
+     <div class="title clearfix">
+       &nbsp;&nbsp;&nbsp;&nbsp;订单号： 
+      <span><?php echo $orderRes[0]['order_code'] ?></span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下单时间： <?php echo $orderRes[0]['order_time'] ?>
+      <span></span> 
+       
+     </div> 
+     <table> 
+      <tbody>
+         <tr> 
+          <td colspan="2"></td> 
+          <td class="product">商品</td> 
+          <td>状态</td> 
+          <td>单价</td> 
+          <td>购买数量</td> 
+          <td colspan="2" class="back-two">小计</td> 
+         </tr> 
+         
+
+        <?php 
+        foreach ($orderRes[0]['order_sku'] as $key => $value) { ?>
+          <tr>
+            <td colspan="2">
+              <a href="{:U('home/shopdetail/index',array('good_id'=>$value['good_id']))}" target="_blank"><img src="__ROOT__/<?php echo $value['good_pic'] ?>" />
+              </a>
+            </td> 
+            <td class="product">
+              <span><a href="{:U('home/shopdetail/index',array('good_id'=>$value['good_id']))}" target="_blank"><?php echo $value['good_name'].$value['attr_combine'] ?></a>
+              </span>
+            </td> 
+            <td>
+              <i class="wuliu seeDeliverBox">
+                <?php  
+                  switch ($orderRes[0]['status']) {
+                    case '0':
+                      echo '待付款';
+                      break;
+                    
+                    case '1':
+                      echo '待发货';
+                      break;
+
+                    case '2':
+                      echo '已发货';
+                      break;
+
+                    case '3':
+                      echo '订单已取消';
+                      break;
+                  }
+                ?>
+
+              </i> 
+              <i class="iconfont"></i><br /> 
+            </td> 
+            <td class="price">
+              <span>￥<?php echo $value['good_price'] ?>.00</span> 
+            </td> 
+            <td>1</td> 
+            <td class="bold back-two" colspan="2">￥<?php echo $value['good_price']*$value['good_num'] ?>.00</td> 
+         </tr>
+        <?php }
+        ?> 
+           
+      </tbody> 
+     </table> 
+    </div>
+
+    <div class="item makeOrder"> 
+     <ul> 
+      <li><span>总金额</span><span>￥<?php echo $orderRes[0]['order_price'] ?>.00</span></li> 
+      <li><span>运费</span><span>￥0.00</span></li> 
+      <li class="end"><span>
+      <?php  
+        if($orderRes[0]['status'] == 0){
+          echo '应付';
+        }else{
+          echo '金额';
+        }
+      ?>
+      </span><span class="total big-red">￥<?php echo $orderRes[0]['order_price'] ?>.00</span></li> 
+     </ul> 
+    </div> 
+
+    <div class="editBox title"> 
+     <span class="title">收货人信息&nbsp;&nbsp;</span> 
+     <!-- <a class="edit blue" href="javascript:;">修改</a>  -->
+    </div> 
+    <div class="address"> 
+     <p>收货人：<?php echo $orderRes[0]['username'] ?></p> 
+     <p>地址：<?php echo $orderRes[0]['address_text'] ?></p> 
+     <p>电话：<?php echo $orderRes[0]['phone'] ?></p> 
+     <!-- <p>邮编：511400</p>  -->
+    </div> 
+   <!--  <div class="item ticket"> 
+     <span class="title">发票信息</span> 
+     <p class="specail"> <span class="space">发票类型：</span><span><b class="text"><span class="blue">电子发票</span> <i class="iconfont icon-question"></i> </b> </span> </p> 
+     <p><span class="space">发票抬头：</span><span>黄镇江</span></p> 
+    </div>  -->
+    <div class="item remark"> 
+     <span class="title">订单备注</span> 
+     <p><span class="space">买家留言：</span><span><?php echo $orderRes[0]['user_message'] ?></span></p> 
+    </div> 
+   </div> 
+  </div> 
+ </div> 
+</div>

@@ -1,0 +1,673 @@
+<link rel="stylesheet" href="__PUBLIC__/Home/css/order_add_new.css">
+<link rel="stylesheet" href="__PUBLIC__/Home/css/order.css">
+<form method="post" action="{:U('home/order/ordercommit')}" id="realFrom"> 
+   <div id="storeContainer"> 
+    <div class="mz_content clearfix"> 
+    <h1>确认订单</h1>
+     <div class="order_nav" style="position:absolute;right:50px;"> 
+        <span style="color:#47D3F8">购物车 > 确认订单 ></span> 在线支付 > 完成
+     </div><br> <br>
+     <div class="order_title">
+       <h2 style="color:black;font-size:24px;font-weight:bold">收货人信息</h2> 
+      <!--          <div class="update_tips">
+                <i class="order_icons tips_icons"></i>
+                因配送地址库升级，部分地址需升级后方可使用！
+            </div>--> 
+      <span class="err_msg address_error_tip"></span> 
+     </div> 
+     <div class="line"></div> 
+     <div class="user_msg"> 
+      <div class="address_list" id="addressList">
+       <!-- 用户地址列表 --> 
+       <?php  
+        foreach ($addrRes as $key => $value) { ?>
+          <div style="display:inline-block" class="address_box <?php if($value['isdefault'] == 1) echo 'active' ?>" addrid="<?php echo $value['id'] ?>" data-provinces="14848" data-city="14849" data-area="14850" data-street="14852" data-other="小白楼街道" data-citycn="北京" data-addressdetial="番禺区沙湾镇丽景花苑" data-isold="0"> 
+            <div class="top"> 
+             <span class="name"><?php echo $value['realname'] ?></span> 
+             <span class="phone"><?php echo $value['phone'] ?></span> 
+            </div> 
+            <div class="bottom">
+             <?php echo $value['province'].$value['city'].$value['county'].$value['detail_addr'] ?>
+            </div> 
+            <div class="control"> 
+             <span class="edit" addrid="<?php echo $value['id'] ?>">修改</span> 
+             <span class="del" addrid="<?php echo $value['id'] ?>">删除</span> 
+            </div> 
+            <div class="update_tips"> 
+             <div class="order_icons box_triangle"></div> 
+             <div class="tips_content">
+               因配送地址库升级，提交订单前，请务必完善地址信息，让您享受更好的配送服务。
+              <div class="order_btn primary">
+               立即完善
+              </div> 
+             </div> 
+            </div> 
+           </div>
+       <?php }
+       ?>       
+      </div> 
+
+    
+
+
+
+
+      <div class="user_address"> 
+         <div class="add_address" id="addAddress">
+                <div class="add_icon">
+                 +
+                </div>
+                <span class="str">添加新地址</span>
+                <span class="err_msg" data-errname="form_validation"></span>
+         </div> 
+       <div class="add_form" id="addFrom" style="display:none"> 
+        <div class="tr"> 
+               <div class="th">
+                收件人
+               </div> 
+               <div class="td">
+                <input type="text" class="order_input publicuse" name="realname" id="realname" maxlength="12" placeholder="长度不超过12个字" />
+                <i class="must" data-errname="consName"></i>
+               </div> 
+        </div> 
+              <div class="tr"> 
+               <div class="th">
+                手机
+               </div> 
+               <div class="td">
+                <input type="text" class="order_input publicuse" name="phone" id="phone" maxlength="11" placeholder="请输入11位手机号" />
+                <i class="must" data-errname="consPhone"></i>
+               </div> 
+              </div> 
+        <div class="tr"> 
+         <div class="th">
+          地址
+         </div>
+         <style type="text/css">
+            select{
+              line-height: 35px;
+              width: 190px;
+              height: 35px;
+              border: 1px solid #e0e0e0;
+              padding-left: 10px;
+              appearance:none;
+              -moz-appearance:none;
+              -webkit-appearance:none;
+              padding-right: 14px;
+              background: #fff url(__PUBLIC__/home/images/selectIcon.png) no-repeat 180px 25px;
+              color: #515151;
+              padding-left: 6px;
+              }                
+            }
+        </style> 
+         <div class="td" id="citys"> 
+            <div class="row clearfix receverAddress"> 
+            <!--  <input type="text" readonly="true" class="mzui_select_trigger town" placeholder="乡镇/街道" /> -->
+            <!-- 三级联动start -->
+            <select id="seachprov" name="seachprov" onChange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"></select>&nbsp;&nbsp;
+            <select id="seachcity" name="homecity" onChange="changeCity(this.value,'seachdistrict','seachdistrict');"></select>&nbsp;&nbsp;
+            <select id="seachdistrict" name="seachdistrict"></select>
+            <!-- <span id="seachdistrict_div"><select id="seachdistrict" name="seachdistrict"></select></span> -->
+            <!-- <input type="button"  value="获取地区" onClick="showAreaID()"/> -->
+            <!-- 三级联动end -->
+            <div class="mzui_select_other hide"> 
+             <input type="text" class="otherAddress _otherAddress errorRed" placeholder="其他" /> 
+             <span class="error">必填</span>
+            </div> 
+         </div>
+         </div> 
+        </div> 
+        <div class="tr"> 
+         <div class="th"></div> 
+         <div class="td detial_address">
+          <span></span>
+          <input type="text" class="order_input publicuse" name="detail_addr" id="detail_addr" placeholder="请输入不超过50个字的详细地址，例如：路名、门牌号" />
+          <i class="must" data-errname="consAddress"></i>
+         </div> 
+        </div> 
+        <div class="tr"> 
+         <div class="th"></div> 
+         <div class="td">
+          <div class="order_btn primary addrsave" id="saveanduse">
+           保存并使用
+          </div>
+          <div class="order_btn cancel">
+           取消
+          </div>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+
+
+
+
+     <div class="order_others"> 
+            <div class="tr"> 
+             <div class="th">
+              配送方式：
+             </div> 
+             <div class="td send_type">
+              快递配送（免运费）
+             </div> 
+             <div class="td delivery_tomorrow" id="fastArrival"> 
+              <a class="speed_icon" target="_blank" href="http://store.meizu.com/marrive/summary.html"></a> 
+              <span class="speed_text"></span>
+             </div> 
+            </div>
+
+
+           
+     </div> 
+     <div class="order_title">
+       <h2 style="font-size:24px;font-weight:bold;color:#000000">确认订单信息</h2> 
+     </div> 
+     <table cellpadding="0" cellspacing="0" class="product_table"> 
+      <thead> 
+       <tr> 
+        <th width="150" style="color:#000000">商品</th> 
+        <th width="450" class="supplier"> 
+        </th> 
+        <th width="100" style="color:#000000">单价</th> 
+        <th width="200" style="color:#000000">数量</th> 
+        <th style="color:#000000">小计</th> 
+        <th style="color:#000000">配送方式</th>
+       </tr> 
+      </thead>
+      <style type="text/css">
+        .selfdo{
+          display: inline-block;
+          position: relative;
+          width: 110px;
+        }
+        .selfminus{
+          color: red;
+          position: absolute; 
+          display: inline-block;
+          left: -2px;
+          height: 24px;
+          top:-1px;
+          background-color: #f0f0f0;
+          width: 20px;
+          font-size: 18px;
+          border: 1px solid #e5e5e5;
+          cursor: pointer;
+        }
+        .selfadd{
+          color: red;
+          position: absolute; 
+          display: inline-block;
+          top:-1px;
+          right: -2px;
+          height: 24px;
+          background-color: #f0f0f0;
+          width: 20px;
+          font-size: 18px;
+          border: 1px solid #e5e5e5;
+          cursor: pointer;
+        }
+        .selfall:hover{
+          background-color: #B0B0B0;
+          color: white;
+        }
+        .good_stocks{
+          margin-top: 10px;
+          font-family: "微软雅黑","Microsoft Yahei",Arial,Helvetica,sans-serif,"宋体";
+         font-size: 14px;
+        }
+      </style>
+      <tbody>
+        <?php  
+          $totalprice = 0;
+          foreach ($res as $key => $value)
+          { 
+            ?>
+              <tr> 
+              <!-- 得到商品的总价 -->
+              <?php $totalprice = $totalprice +  $value['good_price'] * $value['good_num'];  ?>
+
+                <input type="hidden" name="carid[]" value="<?php echo $value['carid'] ?>" >
+                <input type="hidden" name="gdlist_id[]" value="<?php echo $value['gdlistid'] ?>">
+                <input type="hidden" name="good_num[]" value="<?php echo $value['good_num'] ?>">
+                <input type="hidden" name="good_id[]" value="<?php echo $value['good_id'] ?>">
+                <td class="img"><img src="__ROOT__/<?php echo $value['good_pic']  ?>" /></td> 
+                <td class="detial"> <p class="title"> <a target="_blank" href="javascript:void()"> <br><br>
+                   <!--如果是套餐则显示套餐--> <?php echo $value['good_name'] ?> <?php echo $value['attr_combine'] ?> </a> </p> </td> 
+                <td class="price"> &yen;&nbsp;<?php echo $value['good_price'] ?> </td> 
+                <td>
+                    <?php echo $value['good_num'] ?>
+                </td> 
+                <td class="price" style="color:red;font-size:22px;font-weight:bold">&yen;&nbsp;<?php echo $value['good_price'] * $value['good_num'] ?></td> 
+                <td>
+                    快递配送：运费0.00
+                </td>
+              </tr>
+           <?php 
+          }
+        ?>
+
+      </tbody> 
+     </table> 
+     <div style="width:1240px;height:110px;background:#F5F5F5;position:relative;margin-top:-49px;font-weight:bold;font-size:22px;color:black;line-height:110px">
+          <span style="float:right">合计：<span style="color:red">&yen;&nbsp;<?php echo $value['good_price'] * $value['good_num'] ?></span>&nbsp&nbsp&nbsp&nbsp&nbsp</span>
+     </div>
+     <div class="order_total"> 
+      <div class="tr"> 
+       <div class="th">
+        总金额
+       </div> 
+       <div class="td">
+        &yen;&nbsp;<?php echo $totalprice ?>
+       </div> 
+      </div>  
+      <div class="tr"> 
+       <div class="th">
+        运费
+       </div> 
+       <div class="td">
+        &yen;&nbsp;0
+       </div> 
+      </div> 
+      <div class="line"></div> 
+      <div class="tr"> 
+       <div class="th">
+        应付：
+       </div> 
+       <div class="td total_price" style="color:red;font-size:22px">
+        &yen;&nbsp;
+        <span id="totalPrice"><?php echo $totalprice ?> <input type="hidden" name="order_price" value="<?php echo $totalprice ?>"></span>
+       </div> 
+      </div> 
+      <div class="tr" style="display: none"> 
+       <div class="th">
+        可获得商城积分：
+       </div> 
+       <div class="td">
+        0 分
+       </div> 
+      </div> 
+      <div class="tr verifica">
+        验证码 
+       <input type="text" class="order_input"  id="validCode" ok='' /> 
+       <img src="{:U('home/register/verify')}" style="cursor: pointer;" onClick="this.src=this.src+'?'+Math.random()" /> 
+       <i class="must"></i> 
+      </div> 
+      <div class="tr verifica_tips" id="verificaTips" ></div> 
+      <div class="tr"> 
+       <div class="order_btn primary" id="commitorder">
+        提交订单
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </form>
+  <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.10.1.js"></script>
+  <!-- 引入三级联动的文件 -->
+  <script src="__PUBLIC__/sanjiliandong/js/Area.js" type="text/javascript"></script>
+  <script src="__PUBLIC__/sanjiliandong/js/AreaData_min.js" type="text/javascript"></script>
+   <!-- 引入笑脸哭脸的js -->
+  <script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+  <script type="text/javascript">
+  $(function (){
+    initComplexArea('seachprov', 'seachcity', 'seachdistrict', area_array, sub_array, '44', '0', '0');
+  });
+
+  //得到地区码
+  function getAreaID(){
+    var area = 0;          
+    if($("#seachdistrict").val() != "0"){
+      area = $("#seachdistrict").val();                
+    }else if ($("#seachcity").val() != "0"){
+      area = $("#seachcity").val();
+    }else{
+      area = $("#seachprov").val();
+    }
+    return area;
+  }
+
+  function showAreaID() {
+    //地区码
+    var areaID = getAreaID();
+    //地区名
+    var areaName = getAreaNamebyID(areaID) ;
+    alert("您选择的地区码：" + areaID + "      地区名：" + areaName);            
+  }
+
+  //根据地区码查询地区名
+  function getAreaNamebyID(areaID){
+    var areaName = "";
+    if(areaID.length == 2){
+      areaName = area_array[areaID];
+    }else if(areaID.length == 4){
+      var index1 = areaID.substring(0, 2);
+      areaName = area_array[index1] + " " + sub_array[index1][areaID];
+    }else if(areaID.length == 6){
+      var index1 = areaID.substring(0, 2);
+      var index2 = areaID.substring(0, 4);
+      areaName = area_array[index1] + " " + sub_array[index1][index2] + " " + sub_arr[index2][areaID];
+    }
+    return areaName;
+  }
+  </script>
+  <script type="text/javascript">
+  $(document).ready(function() {
+    //修改默认地址
+    $(document).on('click', '.address_box', function(event) {
+      $('.add_address').attr('id', 'addAddress');            //还原默认的。
+      $('.add_address').children('.str').html('添加新地址'); //还原默认的。
+      $('.addrsave').attr('id', 'saveanduse');
+
+      if($(this).hasClass('active')) return false;     //如果本身就是默认地址 就直接返回false
+      var addrid = $(this).attr('addrid');
+      var thisobj = $(this);
+      $('#addFrom').slideUp("slow");
+      var objArr = $('.publicuse');
+      $.each(objArr, function(index, val) {
+         $(this).val('');
+      });
+
+      $.ajax({
+        url: '{:U("home/order/isdefault")}',
+        type: 'POST',
+        dataType: 'json',
+        data: {addrid: addrid},
+        success:function(data){
+          if(data.error == 0){
+            thisobj.addClass('active').siblings('.address_box').removeClass('active');
+          }else{
+            alert('修改默认地址出错');
+          }
+        },  
+        error:function(){
+          alert('通信错误');
+        }
+      })
+    });
+    $('#addAddress').toggle(function(){
+      $('#addFrom').slideDown("slow");
+    },function(){
+      $('#addFrom').slideUp("slow");
+    })
+    
+
+    $(document).on('click', '#saveanduse', function(event) {
+      thisobj = $(this);
+       var addInfo = {
+          realname : $('#realname').val(),
+          phone : $('#phone').val(),
+          province : $('#seachprov').find("option:selected").text(), //获取省对的text
+          province_num : $('#seachprov').val(),                     //获取到省得编号
+          city : $('#seachcity').find("option:selected").text(), //获取到城市的text
+          city_num : $('#seachcity').val(),                         //获取到城市的编号
+          county : $('#seachdistrict').find("option:selected").text(),    //获取到区的html
+          county_num : $('#seachdistrict').val(),                   //获取到区的编号
+          detail_addr : $('#detail_addr').val(),          //获取到详细地址
+          // isdefault : $('#default').is(':checked'),         //判断是否选中设为默认地址
+        };
+        //检查用户是否有填写应填写的信息
+        if(addInfo.realname == ''){
+          layer.msg('姓名不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.phone == ''){
+          layer.msg('手机号码不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(!/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/.test(addInfo.phone)){
+          layer.msg('手机号码格式不对',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.province_num == 0){
+          layer.msg('请选择省',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.city_num == 0){
+          layer.msg('请选择市',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.detail_addr == ''){
+          layer.msg('详细地址不能为空',{icon:5,time:1000});
+          return false;
+        }
+        //全部通过以后
+        $.ajax({
+          url: '{:U("home/order/saveadd")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {alldata: addInfo},
+          success:function(data){
+            if(data.error == 0){
+
+              $('#addFrom').slideUp("slow");  //成功之后滑上去 
+              var objArr = $('.publicuse');
+              $.each(objArr, function(index, val) { //并且清空文本框
+                 $(this).val('');
+              });
+
+              $('.address_box').removeClass('active');
+              $('#addressList').append('<div class="address_box active" addrid="'+data.insertid+'"  data-isold="0"><div class="top"><span class="name">'+addInfo.realname+'</span><span class="phone">'+addInfo.phone+'</span></div> <div class="bottom">'+addInfo.province+addInfo.city+addInfo.county+addInfo.detail_addr+'</div><div class="control"><span class="edit" addrid="'+data.insertid+'">修改</span><span class="del" addrid="'+data.insertid+'">删除</span></div><div class="update_tips"><div class="order_icons box_triangle"></div><div class="tips_content">因配送地址库升级，提交订单前，请务必完善地址信息，让您享受更好的配送服务。<div class="order_btn primary">立即完善</div></div></div></div>');
+            }else{
+              layer.msg(data.msg,{icon:5,time:1000});
+            }
+          },
+          error:function(){
+             layer.msg(通讯错误,{icon:5,time:1000});
+          }
+        })
+        
+    });
+
+    //点击了取消
+    $(document).on('click', '.cancel', function(event) {
+
+      $('#addFrom').slideUp("slow");
+      var objArr = $('.publicuse');
+      $.each(objArr, function(index, val) {
+         $(this).val('');
+      });
+      // order_title
+      $('html,body').stop().animate({scrollTop: $('.order_title').offset().top}, 500); 
+
+      $('.add_address').attr('id', 'addAddress');            //还原默认的。
+      $('.add_address').children('.str').html('添加新地址'); //还原默认的。
+      $('.addrsave').attr('id', 'saveanduse');               //还原默认的。
+    });
+
+    //点击删除地址
+    $(document).on('click', '.del', function(event) {
+      var addrid = $(this).attr('addrid');
+      var thisobj = $(this);
+
+      $.ajax({
+        url: '{:U("home/order/addressDelete")}',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {addrid: addrid},
+        success:function(data){
+          if(data.error == 0){
+             thisobj.parents('.address_box').remove();
+          } 
+        },
+        error:function(){
+
+        }
+      })
+
+      return false; //阻止后面事件的发生。
+    });
+
+    //点击编辑地址
+    var editindexnum = 0;
+    $(document).on('click', '.edit', function(event) {
+      addrid = $(this).attr('addrid');
+      thisobj = $(this);
+      editindexnum =  $(this).parents('.address_box').index();  //保存当前父亲的索引
+      $.ajax({
+        url: '{:U("home/order/addredit")}',
+        type: 'POST',
+        dataType: 'JSON',
+        data: {addrid: addrid},
+        success:function(data){
+          $('#realname').val(data[0].realname);
+            $('#phone').val(data[0].phone);
+            $('#detailAddress').val(data[0].detail_addr);
+            $('#seachprov').val(data[0].province_num);   //省的默认选择
+            changeComplexProvince(data[0].province_num, sub_array, 'seachcity', 'seachdistrict');
+            $('#seachcity').val(data[0].city_num);       //市的默认选择
+            if(data[0].county_num != 0){                 //修复下拉框选择的bug。
+              changeCity(data[0].city_num,'seachdistrict','seachdistrict'); //
+              $('#seachdistrict').val(data[0].county_num);  //区的默认选择
+            }
+            $('#detail_addr').val(data[0].detail_addr);
+            $('#addAddress').attr('id', 'editaddr');
+            $('#editaddr').children('.str').html('修改地址');
+            $('.addrsave').attr('id', 'editsave');       //把添加的按钮改成修改的按钮
+            $('#editsave').attr('addrid', addrid);
+            $('#addFrom').slideDown("slow");
+
+            $('html,body').stop().animate({scrollTop: $('.add_icon').offset().top}, 500); 
+        },
+        error:function(){
+
+        }
+      })
+      return false;//阻止后面事件的发生。 因为修改是放在div的大块里面的。
+    });
+    
+    //编辑保存了;
+    $(document).on('click', '#editsave', function(event) {
+       thisobj = $(this);
+       var addrid = $(this).attr('addrid');
+       var addInfo = {
+          realname : $('#realname').val(),
+          phone : $('#phone').val(),
+          province : $('#seachprov').find("option:selected").text(), //获取省对的text
+          province_num : $('#seachprov').val(),                     //获取到省得编号
+          city : $('#seachcity').find("option:selected").text(), //获取到城市的text
+          city_num : $('#seachcity').val(),                         //获取到城市的编号
+          county : $('#seachdistrict').find("option:selected").text(),    //获取到区的html
+          county_num : $('#seachdistrict').val(),                   //获取到区的编号
+          detail_addr : $('#detail_addr').val(),          //获取到详细地址
+          id : addrid,
+          // isdefault : $('#default').is(':checked'),         //判断是否选中设为默认地址
+        };
+        //检查用户是否有填写应填写的信息
+        if(addInfo.realname == ''){
+          layer.msg('姓名不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.phone == ''){
+          layer.msg('手机号码不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(!/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/.test(addInfo.phone)){
+          layer.msg('手机号码格式不对',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.province_num == 0){
+          layer.msg('请选择省',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.city_num == 0){
+          layer.msg('请选择市',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.detail_addr == ''){
+          layer.msg('详细地址不能为空',{icon:5,time:1000});
+          return false;
+        }
+        //全部通过以后
+        $.ajax({
+          url: '{:U("home/order/editsave")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {alldata: addInfo},
+          success:function(data){
+            if(data.error == 0){
+              $('.address_box').eq(editindexnum).replaceWith('<div class="address_box active" addrid="'+addrid+'"  data-isold="0"><div class="top"><span class="name">'+addInfo.realname+'</span><span class="phone">'+addInfo.phone+'</span></div> <div class="bottom">'+addInfo.province+addInfo.city+addInfo.county+addInfo.detail_addr+'</div><div class="control"><span class="edit" addrid="'+addrid+'">修改</span><span class="del" addrid="'+addrid+'">删除</span></div><div class="update_tips"><div class="order_icons box_triangle"></div><div class="tips_content">因配送地址库升级，提交订单前，请务必完善地址信息，让您享受更好的配送服务。<div class="order_btn primary">立即完善</div></div></div></div>');
+              $('.address_box').eq(editindexnum).siblings('.address_box').removeClass('active');
+
+
+              $('html,body').stop().animate({scrollTop: $('.order_title').offset().top}, 500);
+              $('#addFrom').slideUp("slow");
+              var objArr = $('.publicuse');
+              $.each(objArr, function(index, val) {
+                 $(this).val('');
+              });
+
+
+              $('#editaddr').attr('id', 'addAddress');
+              $('#addAddress').children('.str').html('添加新地址');
+              $('.addrsave').attr('id', 'saveanduse');       //把添加的按钮改成修改的按钮
+              $('#saveanduse').removeAttr('addrid');
+              $('#addFrom').slideUp("slow");
+
+            }else{
+              alert('修改失败');
+            }
+          },
+          error:function(){
+
+          }
+        });
+    });
+
+    //检测验证码
+    $(document).on('blur', '#validCode', function(event) {
+      var thisobj = $(this);
+      var value = $(this).val();
+      if(value == ''){
+        $('#verificaTips').html('');
+        thisobj.attr('ok', '');
+        return false;
+      }
+      $.ajax({
+        url: '{:U("home/register/ckeckverify")}',
+        type: 'POST',
+        dataType: 'json',
+        data: {verifycode: value},
+        success:function(data){
+          if(data.error == 0){
+            thisobj.attr('ok', 'ok');
+            $('#verificaTips').html('');
+          }else{
+            thisobj.attr('ok', '');
+            $('#verificaTips').html(data.returnMsg);
+          }
+        },
+        error:function(){
+
+        }
+      })
+    });
+
+
+    //提交订单按钮  检查有没有默认地址
+    $(document).on('click', '#commitorder', function(event) {
+      var allowSubmit = false;
+      var addrArr = $('.address_box');
+      $.each(addrArr, function(index, val) {
+         if($(this).hasClass('active')){
+          allowSubmit = true;
+         }
+      });
+
+      if(!allowSubmit){
+        layer.msg('请先设置默认地址',{icon:5,time:1000});
+        return false;
+      }
+
+      if($('#validCode').attr('ok') == ''){
+        layer.msg('请先填写验证码',{icon:5,time:1000});
+        $('#validCode').focus();
+        return false;
+      }
+
+      $('#realFrom').submit();
+
+    });
+
+  });
+  </script>

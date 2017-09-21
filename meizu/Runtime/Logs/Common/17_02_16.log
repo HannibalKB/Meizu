@@ -1,0 +1,294 @@
+[ 2017-02-16T09:34:51+08:00 ] 127.0.0.1 /mz/index.php/user
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:User
+
+[ 2017-02-16T12:10:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T12:10:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T12:10:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T12:10:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T13:57:33+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T13:57:33+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T13:57:33+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T13:57:34+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:01:21+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:01:21+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:01:21+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:01:21+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:16:25+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:16:25+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:16:25+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:16:25+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:17:26+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:17:26+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:17:26+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:17:26+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:25:22+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:25:22+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:25:22+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:25:23+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:30:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:30:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:30:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:30:38+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:31:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:31:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:31:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:31:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:34:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:34:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:34:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T14:34:09+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:21:44+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:21:44+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:21:44+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:21:44+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:28:34+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:28:34+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:28:34+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:28:34+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:31:03+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:31:03+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:31:03+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2017-02-16T15:31:03+08:00 ] 127.0.0.1 /mz/index.php/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载模块:Good_detail_files
+

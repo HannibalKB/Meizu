@@ -1,0 +1,84 @@
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001469s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002610s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003273s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001848s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003785s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001341s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000184s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001451s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000079s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001348s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000086s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001381s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000083s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005668s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:44:40+08:00 ] 127.0.0.1 /mz/Public/Home/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000076s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001080s ]
+ERR: 无法加载模块:Public
+
+[ 2016-11-22T11:44:41+08:00 ] 127.0.0.1 /mz/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000754s ]
+ERR: 无法加载模块:Good_detail_files
+
+[ 2016-11-22T11:49:21+08:00 ] 127.0.0.1 /mz/Public/Admin/images/demo_bg.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000073s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001300s ]
+ERR: 无法加载模块:Public
+

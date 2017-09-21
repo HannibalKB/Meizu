@@ -1,0 +1,1508 @@
+[ 2016-11-22T11:44:47+08:00 ] 127.0.0.1 /mz/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001049s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001238s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000316s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035135s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035445s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001533s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001941s ]
+
+[ 2016-11-22T11:44:47+08:00 ] 127.0.0.1 /mz/index.php/admin/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001215s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000233s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000661s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023075s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023727s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001436s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001827s ]
+
+[ 2016-11-22T11:44:50+08:00 ] 127.0.0.1 /mz/index.php/admin/login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000098s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000372s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000859s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.090664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091164s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002896s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003373s ]
+
+[ 2016-11-22T11:44:50+08:00 ] 127.0.0.1 /mz/index.php/admin/login/lib/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000212s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001125s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001498s ]
+ERR: 非法操作:lib
+
+[ 2016-11-22T11:44:50+08:00 ] 127.0.0.1 /mz/index.php/admin/login/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.004822s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006265s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005532s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005922s ]
+ERR: 非法操作:js
+
+[ 2016-11-22T11:44:50+08:00 ] 127.0.0.1 /mz/index.php/admin/verify/buildVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000080s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001751s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000985s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001216s ]
+
+[ 2016-11-22T11:44:52+08:00 ] 127.0.0.1 /mz/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002270s ]
+SQL: select * from user where username = 'admin' and isadmin = 1 [ RunTime:0.0892s ]
+
+[ 2016-11-22T11:44:54+08:00 ] 127.0.0.1 /mz/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001242s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001496s ]
+SQL: select * from user where username = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' and isadmin = 1 [ RunTime:0.0009s ]
+
+[ 2016-11-22T11:44:56+08:00 ] 127.0.0.1 /mz/index.php/admin/verify/checkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000963s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000803s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+
+[ 2016-11-22T11:44:56+08:00 ] 127.0.0.1 /mz/index.php/admin/login/allowlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000824s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001051s ]
+SQL: select * from user where username = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' and isadmin = 1 [ RunTime:0.0007s ]
+SQL: select title from auth_group t1 left join auth_group_access t2 on t1.id = t2.group_id where t2.uid = 12 [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000115s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010656s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010857s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000840s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001011s ]
+
+[ 2016-11-22T11:44:57+08:00 ] 127.0.0.1 /mz/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000096s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002017s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002498s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000410s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000996s ]
+NOTIC: [8] Undefined index: username F:\wamp\www\mz\meizu\Runtime\Cache\Admin\d3cb86088ccc7f3e1c570875240154db.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.124407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.124907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002247s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002793s ]
+
+[ 2016-11-22T11:44:57+08:00 ] 127.0.0.1 /mz/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000047s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000165s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000391s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032758s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001039s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001386s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001152s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001424s ]
+
+[ 2016-11-22T11:45:01+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001016s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002080s ]
+SQL: select * from shop_type [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000397s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.053520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.053784s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000829s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001072s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001257s ]
+
+[ 2016-11-22T11:45:01+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000893s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: select * from shop_type [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000368s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014176s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000894s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001172s ]
+
+[ 2016-11-22T11:45:09+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/edittype/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001036s ]
+SQL: select * from shop_type where type_id = 1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000316s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000925s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.093814s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.094180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001283s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001738s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002541s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003381s ]
+
+[ 2016-11-22T11:45:12+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000888s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: select * from shop_type [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000289s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000548s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014701s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014939s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001088s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002411s ]
+
+[ 2016-11-22T11:45:13+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptypeattr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001098s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001456s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id [ RunTime:0.0007s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id limit 0,15 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017370s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001009s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001669s ]
+
+[ 2016-11-22T11:45:13+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptypeattr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000703s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001050s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001373s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id [ RunTime:0.0009s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id limit 0,15 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000315s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000666s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018188s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000574s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000825s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001503s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001893s ]
+
+[ 2016-11-22T11:45:30+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptypeattr/editattr/attr_id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000832s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001021s ]
+SQL: select * from shop_type_attr where attr_id = '4' [ RunTime:0.0006s ]
+SQL: select * from shop_type [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000346s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064912s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001322s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001767s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002410s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2016-11-22T11:45:37+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptypeattr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001155s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001524s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id [ RunTime:0.0009s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id limit 0,15 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000236s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000552s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018117s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018386s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000881s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001082s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001953s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002546s ]
+
+[ 2016-11-22T11:45:40+08:00 ] 127.0.0.1 /mz/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001103s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0045s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000153s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019789s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001225s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001407s ]
+
+[ 2016-11-22T11:45:40+08:00 ] 127.0.0.1 /mz/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001399s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000423s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018667s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018976s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001250s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001451s ]
+
+[ 2016-11-22T11:46:05+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001049s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0015s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0758s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0007s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='64' [ RunTime:0.0008s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000535s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000991s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.056906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001385s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001860s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002961s ]
+
+[ 2016-11-22T11:46:09+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000749s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000941s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000183s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013959s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014152s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000675s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000845s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001096s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001366s ]
+
+[ 2016-11-22T11:46:12+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000940s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:46:14+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:46:17+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000828s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001152s ]
+SQL: select * from shop_category where cid = 1 [ RunTime:0.0006s ]
+SQL: select * from shop_type where type_id = 1 [ RunTime:0.0005s ]
+SQL: select * from shop_type_attr where type_id = 1 and attr_name = '规格参数' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000461s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044919s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045153s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000882s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001134s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2016-11-22T11:46:18+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/ueditor.html?action=config&&noCache=1479786378092
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001026s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001452s ]
+
+[ 2016-11-22T11:46:25+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000954s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000210s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000438s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012628s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012816s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000829s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001992s ]
+
+[ 2016-11-22T11:46:26+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000960s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000899s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:46:27+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesecondsoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001078s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000748s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: select * from shop_category where pid = '43' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 155 行.
+
+[ 2016-11-22T11:46:35+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000085s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000871s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: select * from shop_category where cid = 1 [ RunTime:0.0005s ]
+SQL: select * from shop_type where type_id = 1 [ RunTime:0.0005s ]
+SQL: select * from shop_type_attr where type_id = 1 and attr_name = '规格参数' [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000214s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000466s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015732s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000869s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001221s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001480s ]
+
+[ 2016-11-22T11:46:35+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/ueditor.html?action=config&&noCache=1479786395590
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000867s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001571s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001280s ]
+
+[ 2016-11-22T11:46:43+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000979s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001225s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0016s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='64' [ RunTime:0.0006s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000269s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000484s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023649s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023859s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000836s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001422s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001616s ]
+
+[ 2016-11-22T11:46:46+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000816s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000796s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000178s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000374s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012841s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000665s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000895s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001761s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002136s ]
+
+[ 2016-11-22T11:46:47+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000821s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+SQL: select * from shop_category where pid = '7' [ RunTime:0.0006s ]
+
+[ 2016-11-22T11:46:49+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000910s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000933s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001081s ]
+SQL: select * from shop_category where pid = '36' [ RunTime:0.0006s ]
+
+[ 2016-11-22T11:46:50+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001034s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:46:51+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000811s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000798s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000952s ]
+SQL: select * from shop_category where pid = '7' [ RunTime:0.0005s ]
+
+[ 2016-11-22T11:46:52+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000864s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: select * from shop_category where cid = 7 [ RunTime:0.0006s ]
+SQL: select * from shop_type where type_id = 3 [ RunTime:0.0005s ]
+SQL: select * from shop_type_attr where type_id = 3 and attr_name = '规格参数' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000218s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015863s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016115s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001094s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001258s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001502s ]
+
+[ 2016-11-22T11:46:52+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/ueditor.html?action=config&&noCache=1479786412774
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000778s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000811s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001209s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001467s ]
+
+[ 2016-11-22T11:47:08+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000048s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0017s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0007s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0008s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0009s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='64' [ RunTime:0.0005s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000248s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000477s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026159s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000764s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000967s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002906s ]
+
+[ 2016-11-22T11:47:10+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000792s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013386s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013576s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001147s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2016-11-22T11:47:11+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000880s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000923s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0007s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:47:11+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000857s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: select * from shop_category where cid = 1 [ RunTime:0.0006s ]
+SQL: select * from shop_type where type_id = 1 [ RunTime:0.0005s ]
+SQL: select * from shop_type_attr where type_id = 1 and attr_name = '规格参数' [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015568s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000878s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001607s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001980s ]
+
+[ 2016-11-22T11:47:12+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/ueditor.html?action=config&&noCache=1479786432085
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001271s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001341s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001632s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002023s ]
+
+[ 2016-11-22T11:47:50+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/PublishSave.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000903s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given F:\wamp\www\mz\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0112s ]
+SQL: INSERT INTO `shop_goods` (`type_id`,`cate_id`,`good_name`,`good_marketprice`,`good_number`,`good_unit`,`good_desc`,`create_time`,`canshu`,`ispublish`,`good_detail`,`isnew`,`good_pic`) VALUES ('1','1','24234234','2342','234234234','234234','234234','1478620800','2323,234234,234,234,234,234,234,234,234,324,234,234,234,234,234234','1','<p>234234234234234</p>','1','Uploads/product_imgs/2016-11-22/5833bfe669087.jpg') [ RunTime:0.0134s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.007961s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.008680s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042261s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042739s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004259s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004750s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005467s ]
+
+[ 2016-11-22T11:47:51+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/shopsku/good_id/69/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000267s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004123s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003674s ]
+SQL: select * from shop_type_attr where type_id = 1 and isbeselected = 1 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000209s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000537s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031134s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031870s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003628s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003434s ]
+
+[ 2016-11-22T11:48:52+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/shopsku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000987s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001546s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `shop_goods_attr` [ RunTime:0.0066s ]
+SQL: INSERT INTO `shop_goods_attr` (`good_attr_value`,`shop_type_attr_id`,`good_id`) VALUES ('移动/联动双4G版','2','69') [ RunTime:0.0005s ]
+SQL: INSERT INTO `shop_goods_attr` (`good_attr_value`,`shop_type_attr_id`,`good_id`) VALUES ('联通4G版','2','69') [ RunTime:0.0004s ]
+SQL: INSERT INTO `shop_goods_attr` (`good_attr_value`,`shop_type_attr_id`,`good_id`) VALUES ('32GB','14','69') [ RunTime:0.0003s ]
+SQL: INSERT INTO `shop_goods_attr` (`good_attr_value`,`shop_type_attr_id`,`good_id`) VALUES ('白色','4','69') [ RunTime:0.0004s ]
+SQL: INSERT INTO `shop_goods_attr` (`good_attr_value`,`shop_type_attr_id`,`good_id`) VALUES ('金色','4','69') [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `shop_goods_list` [ RunTime:0.0049s ]
+SQL: INSERT INTO `shop_goods_list` (`attr_combine`,`good_price`,`good_stock`,`good_id`) VALUES ('160,162,163','34543','34534','69') [ RunTime:0.0006s ]
+SQL: INSERT INTO `shop_goods_list` (`attr_combine`,`good_price`,`good_stock`,`good_id`) VALUES ('160,162,164','345','34534','69') [ RunTime:0.0004s ]
+SQL: INSERT INTO `shop_goods_list` (`attr_combine`,`good_price`,`good_stock`,`good_id`) VALUES ('161,162,163','345','345345','69') [ RunTime:0.0004s ]
+SQL: INSERT INTO `shop_goods_list` (`attr_combine`,`good_price`,`good_stock`,`good_id`) VALUES ('161,162,164','345345','345345','69') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001178s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001382s ]
+
+[ 2016-11-22T11:48:53+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000099s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002343s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004212s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0022s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0012s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='69' [ RunTime:0.0009s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0007s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0007s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0007s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0007s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000424s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000806s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043324s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001971s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002678s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003266s ]
+
+[ 2016-11-22T11:49:01+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/shopskulist/good_id/69/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000082s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001614s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001464s ]
+SQL: select t1.*,t2.ispublish,t2.good_name,t2.create_time from shop_goods_list t1 left join shop_goods t2 on t1.good_id = t2.good_id where t1.good_id = 69 [ RunTime:0.0009s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 160 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 308 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 163 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 160 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 308 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0004s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 164 [ RunTime:0.0003s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 161 [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 308 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0006s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 163 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 161 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 308 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0004s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 164 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000163s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000353s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016947s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017148s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001467s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001672s ]
+
+[ 2016-11-22T11:49:11+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/editsku/listid/151/good_id/69/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001479s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001755s ]
+SQL: select t1.*,t2.ispublish,t2.good_name,t2.create_time,t1.good_price as sku_price from shop_goods_list t1 left join shop_goods t2 on t1.good_id = t2.good_id where t1.good_listid = 151 [ RunTime:0.0630s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 160 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 486 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 163 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000369s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000811s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034173s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034666s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002491s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002967s ]
+
+[ 2016-11-22T11:49:21+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/shopskuimg/listid/151/good_id/69/type_id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001158s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001366s ]
+SQL: select t1.*,t2.ispublish,t2.good_name,t2.create_time from shop_goods_list t1 left join shop_goods t2 on t1.good_id = t2.good_id where t1.good_id = 69 and t1.good_listid != 151 [ RunTime:0.0009s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 160 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 370 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 164 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 161 [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 370 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 163 [ RunTime:0.0005s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 161 [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 370 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0003s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 164 [ RunTime:0.0005s ]
+SQL: select t1.*,t2.good_name,t2.create_time from shop_goods_list t1 left join shop_goods t2 on t1.good_id = t2.good_id where t1.good_listid = 151 [ RunTime:0.0006s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 160 [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: sku_detail F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 389 行.
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 162 [ RunTime:0.0003s ]
+SQL: select  good_attr_value from  shop_goods_attr where good_attr_id = 163 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000169s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000378s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014547s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000916s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001060s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001267s ]
+
+[ 2016-11-22T11:52:00+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000842s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001451s ]
+SQL: select * from shop_type [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000235s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000587s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016376s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000890s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001089s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001079s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001263s ]
+
+[ 2016-11-22T11:52:00+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000890s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000962s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001192s ]
+SQL: select * from shop_type [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000148s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000358s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016030s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016216s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000830s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001514s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001734s ]
+
+[ 2016-11-22T11:52:02+08:00 ] 127.0.0.1 /mz/index.php/admin/shoptypeattr/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000822s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id [ RunTime:0.0008s ]
+SQL: select * from shop_type_attr t1 left join shop_type t2 on t1.type_id = t2.type_id limit 0,15 [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000158s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000962s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001199s ]
+
+[ 2016-11-22T11:52:04+08:00 ] 127.0.0.1 /mz/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000851s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001024s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015299s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015571s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000926s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000938s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-11-22T11:52:06+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000054s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001080s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0016s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0009s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='69' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0005s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000213s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000426s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023090s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000806s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001038s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000955s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001229s ]
+
+[ 2016-11-22T11:52:07+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000179s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000659s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001560s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001883s ]
+
+[ 2016-11-22T11:52:09+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000977s ]
+SQL: select * from shop_category where pid = '36' [ RunTime:0.0006s ]
+
+[ 2016-11-22T11:52:10+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000081s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001019s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: select * from shop_category where pid = '7' [ RunTime:0.0006s ]
+
+[ 2016-11-22T11:52:11+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000756s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000735s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+SQL: select * from shop_category where pid = '36' [ RunTime:0.0005s ]
+
+[ 2016-11-22T11:52:13+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000847s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001027s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:52:13+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesecondsoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001158s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001031s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001300s ]
+SQL: select * from shop_category where pid = '43' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 155 行.
+
+[ 2016-11-22T11:52:20+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000074s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000863s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000785s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:52:21+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesecondsoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001014s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: select * from shop_category where pid = '43' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 155 行.
+
+[ 2016-11-22T11:52:39+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000925s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001073s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:53:09+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000830s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000931s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:53:11+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesecondsoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000078s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001140s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: select * from shop_category where pid = '43' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 155 行.
+
+[ 2016-11-22T11:53:22+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001441s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001037s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0015s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0009s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='69' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0003s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000351s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000716s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026764s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027037s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000882s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001067s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001133s ]
+
+[ 2016-11-22T11:53:24+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000906s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000820s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001011s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000375s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013322s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000778s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001371s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001720s ]
+
+[ 2016-11-22T11:53:25+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000812s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001060s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:53:46+08:00 ] 127.0.0.1 /mz/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001011s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001155s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000155s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000356s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015817s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000861s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001047s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001182s ]
+
+[ 2016-11-22T11:53:47+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000984s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001179s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0017s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0009s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='69' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0005s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0006s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0004s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000212s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000478s ]
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered F:\wamp\www\mz\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025933s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001241s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001046s ]
+
+[ 2016-11-22T11:53:47+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000862s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001091s ]
+SQL: select * from shop_category where pid = 0 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000184s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000386s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012841s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013031s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001212s ]
+
+[ 2016-11-22T11:53:49+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000046s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000818s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001050s ]
+SQL: select * from shop_category where pid = '1' [ RunTime:0.0006s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 125 行.
+
+[ 2016-11-22T11:53:50+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/getthesecondsoncate.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000904s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001033s ]
+SQL: select * from shop_category where pid = '36' [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: str F:\wamp\www\mz\meizu\Admin\Controller\ShopController.class.php 第 155 行.
+
+[ 2016-11-22T11:53:56+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/publishshop.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000949s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000949s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001132s ]
+SQL: select * from shop_category where cid = 1 [ RunTime:0.0005s ]
+SQL: select * from shop_type where type_id = 1 [ RunTime:0.0003s ]
+SQL: select * from shop_type_attr where type_id = 1 and attr_name = '规格参数' [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000294s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000615s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016105s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001077s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000971s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001213s ]
+
+[ 2016-11-22T11:53:56+08:00 ] 127.0.0.1 /mz/index.php/admin/shop/ueditor.html?action=config&&noCache=1479786836429
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000070s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000972s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001561s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001332s ]
+

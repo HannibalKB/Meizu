@@ -1,0 +1,700 @@
+[ 2016-08-22T10:33:16+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:33:16+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/verify/buildVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:33:16+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/login/lib/jquery.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:lib
+
+[ 2016-08-22T10:33:16+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/login/js/H-ui.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:js
+
+[ 2016-08-22T10:33:29+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'amd' and isadmin = 1 [ RunTime:0.0750s ]
+
+[ 2016-08-22T10:33:29+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'amdi' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:29+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'amdin' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:33+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'amdi' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:33+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'amd' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:33+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'am' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:33+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'a' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:40+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'ad' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:40+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'adm' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:40+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'admn' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:41+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'adm' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:41+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'ad' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:41+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'a' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:41+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'ad' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:42+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'adm' and isadmin = 1 [ RunTime:0.0025s ]
+
+[ 2016-08-22T10:33:42+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'admi' and isadmin = 1 [ RunTime:0.0025s ]
+
+[ 2016-08-22T10:33:42+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkusername.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+SQL: select * from user where username = 'admin' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:42+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'admin' and password = '523af537946b79c4f8369ed39ba78605' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:43+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'admin' and password = '0cc175b9c0f1b6a831c399e269772661' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:44+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'admin' and password = '523af537946b79c4f8369ed39ba78605' and isadmin = 1 [ RunTime:0.0025s ]
+
+[ 2016-08-22T10:33:45+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'admin' and password = 'b09c600fddc573f117449b3723f23d64' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:45+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'admin' and password = '60eb0f73e33ce3ffd4e51d974447db53' and isadmin = 1 [ RunTime:0.0000s ]
+
+[ 2016-08-22T10:33:45+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/Login/checkpassword.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where username = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' and isadmin = 1 [ RunTime:0.0025s ]
+
+[ 2016-08-22T10:33:47+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/verify/checkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:33:47+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/verify/checkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:33:48+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/verify/checkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:33:48+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/verify/checkVerify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:33:51+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/login/allowlogin.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where username = 'admin' and password = '21232f297a57a5a743894a0e4a801fc3' and isadmin = 1 [ RunTime:0.0000s ]
+SQL: select title from auth_group t1 left join auth_group_access t2 on t1.id = t2.group_id where t2.uid = 12 [ RunTime:1.8000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.390006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.390006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:33:54+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002500s ]
+NOTIC: [8] Undefined index: username E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\d3cb86088ccc7f3e1c570875240154db.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.497507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.497507s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-22T10:33:55+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/index/welcome.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.335006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.335006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:34:05+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timetype E:\wamp\www\meizushangchengtpnew\meizu\Admin\Controller\UserController.class.php 第 8 行.
+SQL: select * from user where isadmin = 0 and status != -3 [ RunTime:0.1150s ]
+SQL: select * from user where isadmin = 0 and status != -3 limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: timetype E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\400835a012e8363e6ea1840d9e8e158a.php 第 132 行.
+NOTIC: [8] Undefined index: timetype E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\400835a012e8363e6ea1840d9e8e158a.php 第 133 行.
+NOTIC: [8] Undefined index: mintime E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\400835a012e8363e6ea1840d9e8e158a.php 第 135 行.
+NOTIC: [8] Undefined index: maxtime E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\400835a012e8363e6ea1840d9e8e158a.php 第 137 行.
+NOTIC: [8] Undefined index: condition E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\400835a012e8363e6ea1840d9e8e158a.php 第 138 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.132502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.132502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-22T10:34:10+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/usershow/userid/9.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where uid = '9' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Array to string conversion E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\1d537fcce9da1cde601da4bac69d0334.php 第 90 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.280005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.280005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:34:17+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html?timetype=0&mintime=&maxtime=&condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where isadmin = 0 and status != -3 [ RunTime:0.0025s ]
+SQL: select * from user where isadmin = 0 and status != -3 limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:34:29+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html?timetype=0&mintime=&maxtime=&condition=%2C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%,%' or phone like '%,%' or email like '%,%'  [ RunTime:0.0000s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%,%' or phone like '%,%' or email like '%,%'  limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.035001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.035001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-22T10:34:30+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html?timetype=0&mintime=&maxtime=&condition=%2C
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%,%' or phone like '%,%' or email like '%,%'  [ RunTime:0.0000s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%,%' or phone like '%,%' or email like '%,%'  limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:34:35+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html?timetype=0&mintime=&maxtime=&condition=
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where isadmin = 0 and status != -3 [ RunTime:0.0025s ]
+SQL: select * from user where isadmin = 0 and status != -3 limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:34:44+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/userlist.html?timetype=0&mintime=&maxtime=&condition=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%1%' or phone like '%1%' or email like '%1%'  [ RunTime:0.0000s ]
+SQL: select * from user where isadmin = 0 and status != -3 and username like '%1%' or phone like '%1%' or email like '%1%'  limit 0,5 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:06+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/feedback/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select t1.*,t2.username from feedback t1 left join user t2 on t1.uid = t2.uid [ RunTime:0.0375s ]
+SQL: select t1.*,t2.username from feedback t1 left join user t2 on t1.uid = t2.uid limit 0,2 [ RunTime:0.0025s ]
+SQL: select type_name from feedback_type where id = '2' [ RunTime:0.0250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:20+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/user/ouputExcel/excelname/%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%E8%A1%A8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from user [ RunTime:0.0000s ]
+SQL: insert into operation_logs(admin_id,operation_name,operation_time,operation_ip) values('12','导出用户数据','1471833319','::1') [ RunTime:0.0800s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:24+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/shoptype/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_type [ RunTime:0.0500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:25+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0200s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:25+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/shopcate/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_type` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `shop_type`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:35:44+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/shop/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005001s ]
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Admin\Controller\ShopController.class.php 第 11 行.
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc [ RunTime:0.0025s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid order by  good_id desc limit 0,5 [ RunTime:0.0025s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='68' [ RunTime:0.0925s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='67' [ RunTime:0.0000s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='66' [ RunTime:0.0025s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='65' [ RunTime:0.0000s ]
+SQL: select count(good_listid) count from shop_goods_list where good_id='64' [ RunTime:0.0025s ]
+SQL: select * from shop_category t1 left join shop_type t2 on t1.type_id = t2.type_id order by t1.sort asc [ RunTime:0.0025s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] Undefined index: cid E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 145 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+NOTIC: [8] A non well formed numeric value encountered E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Admin\8595ca944caee70229fd2a300294a1fd.php 第 170 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.077502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.077502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:36:00+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/shop/shopdetail/good_id/68.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods t1 left join shop_category t2 on t1.cate_id = t2.cid left join shop_type t3 on t2.type_id = t3.type_id where good_id = '68' [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where type_id = 7 and attr_name = '规格参数' [ RunTime:0.1225s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2016-08-22T10:36:16+08:00 ] ::1 /meizushangchengtpnew/index.php/admin/banner/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from banner order by banner_id desc [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+

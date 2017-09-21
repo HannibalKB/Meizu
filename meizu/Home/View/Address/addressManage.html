@@ -1,0 +1,457 @@
+
+  <!-- 引入三级联动的文件 -->
+  <script src="__PUBLIC__/sanjiliandong/js/jquery-1.7.min.js" type="text/javascript"></script>
+  <script src="__PUBLIC__/sanjiliandong/js/Area.js" type="text/javascript"></script>
+  <script src="__PUBLIC__/sanjiliandong/js/AreaData_min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $(function (){
+    initComplexArea('seachprov', 'seachcity', 'seachdistrict', area_array, sub_array, '44', '0', '0');
+  });
+
+  //得到地区码
+  function getAreaID(){
+    var area = 0;          
+    if($("#seachdistrict").val() != "0"){
+      area = $("#seachdistrict").val();                
+    }else if ($("#seachcity").val() != "0"){
+      area = $("#seachcity").val();
+    }else{
+      area = $("#seachprov").val();
+    }
+    return area;
+  }
+
+  function showAreaID() {
+    //地区码
+    var areaID = getAreaID();
+    //地区名
+    var areaName = getAreaNamebyID(areaID) ;
+    alert("您选择的地区码：" + areaID + "      地区名：" + areaName);            
+  }
+
+  //根据地区码查询地区名
+  function getAreaNamebyID(areaID){
+    var areaName = "";
+    if(areaID.length == 2){
+      areaName = area_array[areaID];
+    }else if(areaID.length == 4){
+      var index1 = areaID.substring(0, 2);
+      areaName = area_array[index1] + " " + sub_array[index1][areaID];
+    }else if(areaID.length == 6){
+      var index1 = areaID.substring(0, 2);
+      var index2 = areaID.substring(0, 4);
+      areaName = area_array[index1] + " " + sub_array[index1][index2] + " " + sub_arr[index2][areaID];
+    }
+    return areaName;
+  }
+  </script>
+  <div class="store-wrap"> 
+   <div class="crumbs"> 
+    <a href="http://store.meizu.com/">首页&gt;</a> 
+    <a href="http://me.meizu.com/member/index">我的商城&gt;</a> 
+    <a href="{:U('home/address/addressmanage')}" class="active">地址管理</a> 
+   </div> 
+   <div class="main clearfix"> 
+    <div class="left-nav f-fl"> 
+     <div class="nav-main"> 
+      <a href="javascript:;" class="type-title"><i class="iconfont icon-orderCenter"></i>订单中心</a>
+      <a href="{:U('home/myorder/index')}" class="ml ">我的订单</a>
+      <a href="{:U('home/car/index')}" class="ml" target="_blank">我的购物车</a> 
+      <a href="javascript:void()" class="ml ">我的意外保</a> 
+      <a href="javascript:;" class="type-title"><i class="iconfont icon-selfCenter"></i>个人中心</a> 
+              <a href="{:U('home/address/addressmanage')}" class="ml">地址管理</a> 
+              <a href="javascript:;" class="ml ">我的收藏</a> 
+              <a href="javascript:;" class="ml ">消息提醒</a> 
+              <a href="{:U('home/feedback/index')}" class="ml">建议反馈</a> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-moneyCenter"></i>资产中心</a> 
+              <a href="javascript:;" class="ml ">我的优惠卷</a>
+              <a href="javascript:;" class="ml ">消息红包</a>
+              <a href="javascript:;" class="ml ">我的回购卷</a>
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-serverCenter"></i>服务中心</a>
+               <a href="javascript:;" class="ml ">退款</a>
+     </div> 
+    </div> 
+    <div class="right-content f-fr"> 
+     <div class="address-main"> 
+      <div class="main"> 
+       <div class="row"> 
+        <span class="title rollit">新增收货地址</span> 
+        <span class="gray">（您目前已有地址<i class="already"><?php echo $count; ?></i>个，最多还可以增加<i class="settle"><?php echo 10-$count ?></i>个）</span> 
+       </div> 
+       <form id="valid-form"> 
+        <!-- 修改地址时要用的地址id --> 
+        <input class="addressId" type="hidden" value="" /> 
+        <div class="content"> 
+         <div class="row namePhone clearfix"> 
+          <div class="f-fl addressName"> 
+           <span>收货人姓名<i class="mark">*</i></span> 
+           <input class="varify" id="realname" name="realname" type="text" placeholder="长度不超过12个字" maxlength="12" /> 
+          </div> 
+          <div class="f-fl addressPhone"> 
+           <span>收货人手机号<i class="mark">*</i></span> 
+           <input id="phone" name="phone" class="varify" type="text" placeholder="请输入11位手机号" maxlength="11" /> 
+          </div> 
+         </div> 
+         <style type="text/css">
+            select{
+              line-height: 35px;
+              width: 190px;
+              height: 35px;
+              border: 1px solid #e0e0e0;
+              padding-left: 10px;
+              appearance:none;
+              -moz-appearance:none;
+              -webkit-appearance:none;
+              padding-right: 14px;
+              background: #fff url(__PUBLIC__/home/images/selectIcon.png) no-repeat 180px 25px;
+              color: #515151;
+              padding-left: 6px;
+              }                
+            }
+
+        </style>
+         <div class="row clearfix receverAddress"> 
+          <span class="f-fl">收货人地址<i class="mark">*</i></span> 
+          
+          <select id="seachprov" name="seachprov" onChange="changeComplexProvince(this.value, sub_array, 'seachcity', 'seachdistrict');"></select>&nbsp;&nbsp;
+          <select id="seachcity" name="homecity" onChange="changeCity(this.value,'seachdistrict','seachdistrict');"></select>&nbsp;&nbsp;
+          <select id="seachdistrict" name="seachdistrict"></select>
+          
+          <div class="mzui_select_other hide"> 
+           <input type="text" class="otherAddress _otherAddress errorRed" placeholder="其他" /> 
+           <span class="error">必填</span>
+          </div> 
+         </div> 
+         <div class="row  detailAddress"> 
+          <span>详细地址<i class="mark">*&nbsp;&nbsp;&nbsp;</i></span> 
+          <input id="detailAddress" name="address" class="varify" type="text" placeholder="请输入不超过50个字的详细地址，例如：路名，门牌号" maxlength="50" /> 
+         </div> 
+         <div class="opreat"> 
+          <label for="default"> <input id="default" class="setDefault" type="checkbox" name="isDefault" />设为默认 </label> 
+          <a href="javascript:;" class="saveAddress" id="addsave">保存</a> 
+         </div> 
+        </div> 
+       </form> 
+       <div class="list"> 
+        <div class="row"> 
+         <div class="title"> 
+          <div>
+           已有地址
+          </div> 
+          <div class="upload hide"> 
+           <i class="iconfont icon-zhuyi"></i> 
+           <span>因配送地址库数据升级，请点击地址进行升级，让您享受更好的配送服务！</span> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="listHead"> 
+         <span class="center w15">收货人姓名</span>
+         <span class="center w35">收货人地址</span>
+         <span class="center w25">收货人手机号</span>
+         <span class="center w10">操作</span> 
+        </div> 
+        <ul id="tableList" class="">
+        <?php 
+          foreach ($res as $key => $value) {
+            ?>
+                <li class="addressli" id="addliid">
+                  <input class="addressId" type="hidden" value="<?php echo $value['id']; ?>">
+                  <input class="isOld" type="hidden" value="0">
+
+                  <span class="center w15"><?php echo $value['realname']; ?></span>
+                  <span class="completeAddress center w35">
+                    <?php echo $value['province'].$value['city'].$value['county'].$value['detail_addr']; ?>                    
+                  </span>
+                  <span class="center w25"><?php echo $value['phone'] ?></span>
+                  <span class="center w10">
+                    <a class="edit" addrid="<?php echo $value['id'] ?>" href="javascript:;">修改</a>
+                    <a class="delete" addrid="<?php echo $value['id'] ?>" href="javascript:;">删除</a>
+                  </span>
+                  <?php 
+                    if ($value['isdefault'] == 0) {
+                      ?>
+                        <span class="left w15">
+                          <a class="beDefault hide setdefault" href="javascript:;" addrid="<?php echo $value['id'] ?>">设为默认</a>
+                        </span>
+                      <?php
+                    }elseif($value['isdefault'] == 1){
+                      ?>
+                        <span class="left w15">
+                          <!-- <i class="iconfont icon-default"></i> -->
+                          <!-- <i class="iconfont defaultaddr"></i> -->
+                          <i class="defaultAddress isdefaultaddr" addrid="<?php echo $value['id'] ?>">√默认地址</i>
+                        </span>
+                      <?php
+                    }
+                  ?>
+                    
+                </li>
+            <?php
+          }
+         ?>
+         </ul>
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>
+  
+  <script type="text/javascript" src="__PUBLIC__/layer/layer.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+     $(document).on('click', '#addsave', function(event)  {
+        var addInfo = {
+          realname : $('#realname').val(),
+          phone : $('#phone').val(),
+          province : $('#seachprov').find("option:selected").text(), //获取省对的text
+          province_num : $('#seachprov').val(),                     //获取到省得编号
+          city : $('#seachcity').find("option:selected").text(), //获取到城市的text
+          city_num : $('#seachcity').val(),                         //获取到城市的编号
+          county : $('#seachdistrict').find("option:selected").text(),    //获取到区的html
+          county_num : $('#seachdistrict').val(),                   //获取到区的编号
+          detail_addr : $('#detailAddress').val(),          //获取到详细地址
+          isdefault : $('#default').is(':checked'),         //判断是否选中设为默认地址
+        };
+        //检查用户是否有填写应填写的信息
+        if(addInfo.realname == ''){
+          layer.msg('姓名不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.phone == ''){
+          layer.msg('手机号码不能为空',{icon:5,time:1000});
+          return false;
+        }
+        if(!/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/.test(addInfo.phone)){
+          layer.msg('手机号码格式不对',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.province_num == 0){
+          layer.msg('请选择省',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.city_num == 0){
+          layer.msg('请选择市',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.detail_addr == ''){
+          layer.msg('详细地址不能为空',{icon:5,time:1000});
+          return false;
+        }
+        //全部通过以后
+        $.ajax({
+          url: '{:U("home/address/addressAdd")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {alldata: addInfo},
+          success:function(data){
+            
+            if(data.error == 0 && data.isdefault == 1){
+              //如果是默认地址的还要删除其他显示的默认地址的显示 显示当前的默认选中地址
+              $('.isdefaultaddr').replaceWith('<a class="beDefault hide setdefault" addrid="'+data.oldaddrid+'" href="javascript:;">设为默认</a>');
+              $('#tableList').append('<li class="addressli"> <input class="addressId" type="hidden" value="'+data.addressid+'"> <input class="isOld" type="hidden" value="0"> <span class="center w15">'+data.realname+'</span> <span class="completeAddress center w35">'+data.address+'</span> <span class="center w25">'+data.phone+'</span> <span class="center w10"> <a class="edit" addrid="'+data.addressid+'"  href="javascript:;">修改</a> <a class="delete" addrid="'+data.addressid+'" href="javascript:;">删除</a> </span> <span class="left w15">  <i class="defaultAddress isdefaultaddr" addrid="'+data.addressid+'">√默认地址</i> </span> </li>');
+              $('.already').html(data.count);
+              $('.settle').html(10 - data.count);
+            }else if(data.error == 0){
+              $('#tableList').append('<li class="addressli"> <input class="addressId" type="hidden" value="'+data.addressid+'"> <input class="isOld" type="hidden" value="0"> <span class="center w15">'+data.realname+'</span> <span class="completeAddress center w35">'+data.address+'</span> <span class="center w25">'+data.phone+'</span> <span class="center w10"> <a class="edit" addrid="'+data.addressid+'"  href="javascript:;">修改</a> <a class="delete" addrid="'+data.addressid+'" href="javascript:;">删除</a> </span> <span class="left w15">   <a class="beDefault hide setdefault" addrid="'+data.addressid+'" href="javascript:;">设为默认</a></span></li>');
+              $('.already').html(data.count);
+              $('.settle').html(10 - data.count);
+            }else if(data.error == 2){
+               layer.msg(data.msg,{icon:5,time:2000});
+            }
+          },
+          error:function(){
+          }
+        })
+      });
+      
+      //未来追加的元素点击删除按钮事件
+      $(document).on('click', '.delete', function(event) {
+        var currentaddrid = $(this).attr('addrid');
+        var parentObj = $(this).parents('li');    //获取到当前元素的父级也就是li 等等做删除
+        $.ajax({
+          url: '{:U("home/address/addressDelete")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {addrid: currentaddrid},
+          success:function(data){
+            if(data.error == 0){
+              parentObj.remove();
+              $('.already').html(data.count);
+              $('.settle').html(10 - data.count);
+            }else{
+              return false;
+            }
+          },
+          error:function(){
+             layer.msg('通信错误',{icon:5,time:1000});
+          }
+        });
+      });
+
+      //鼠标经过显示默认地址的几个字
+      $(document).on('mouseover', '.addressli', function(event) {
+        $(this).find('.setdefault').removeClass('hide');
+      });
+      //鼠标移出消失默认地址的几个字
+      $(document).on('mouseout', '.addressli', function(event) {
+        $(this).find('.setdefault').addClass('hide');
+      });
+
+      $('.addressli').hover(function(){
+        $(this).css('border','1px solid #00C3F5');
+      },function(){
+        $(this).css('border','none');
+      })
+
+      //设为默认地址的按钮点击
+      $(document).on('click', '.setdefault', function(event) {
+         
+         var currentobj = $(this);    //获得当前对象;
+         // alert(currentobj.attr('href'));
+         // return false;
+         //json数据传输 
+         var needdata = {
+            newaddrid : $(this).attr('addrid'),    //获得当前点击的数据库地址的id
+            oldaddrid  : $('.isdefaultaddr').attr('addrid'), //获得老的地址的id
+         };
+         $.ajax({
+           url: '{:U("home/address/addressDefault")}',
+           type: 'POST',
+           dataType: 'json',
+           data: {addrdata: needdata},
+           success:function(data){
+            if(data.error == 0){
+              //替换原来的默认选中的东西 变成设为默认
+              $('.isdefaultaddr').replaceWith('<a class="beDefault hide setdefault" addrid="'+data.oldaddrid+'" href="javascript:;">设为默认</a>');
+              //当前的设为默认变成默认选中
+              currentobj.replaceWith('<i class="defaultAddress isdefaultaddr" addrid="'+data.newaddrid+'">√默认地址</i>');
+            }else{
+              alert('执行失败');
+            }
+           },
+           error:function(){
+
+           },
+         })
+      });
+      editindexnum = 0;
+      //异步点击地址编辑事件
+      $(document).on('click', '.edit', function(event) {
+        //把原来的添加的按钮属性改变 改成id = "tmpeditsave"
+        //得到点击的id
+        editindexnum =  $(this).parent('span').parent('li').index();
+        
+        $('.saveAddress').attr('id', 'tmpeditsave');
+        //得到当前对应的值
+        var addressid = $(this).attr('addrid'); 
+        $('.saveAddress').attr('addrid', addressid);
+        var currentobj = $(this);
+        $.ajax({
+          url: '{:U("home/address/addredit")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {oldaddressid: addressid},
+          success:function(data){
+            if(data[0].isdefault == 1){
+              $('#default').attr('checked',true);
+              
+            }else{
+              $('#default').attr('checked',false);
+            }
+            $('#realname').val(data[0].realname);
+            $('#phone').val(data[0].phone);
+            $('#detailAddress').val(data[0].detail_addr);
+            $('#seachprov').val(data[0].province_num);   //省的默认选择
+            changeComplexProvince(data[0].province_num, sub_array, 'seachcity', 'seachdistrict');
+            $('#seachcity').val(data[0].city_num);       //市的默认选择
+            if(data[0].county_num != 0){                 //修复下拉框选择的bug。
+              changeCity(data[0].city_num,'seachdistrict','seachdistrict'); //
+              $('#seachdistrict').val(data[0].county_num);  //区的默认选择
+            }
+            
+            
+            $('.rollit').html('修改收获地址');
+            $('html,body').stop().animate({scrollTop: $('.rollit').offset().top}, 500);
+          },
+          error:function(){
+
+          }
+        });
+      });
+
+      
+      //异步地址修改保存事件
+      $(document).on('click', '#tmpeditsave', function(event) {
+        var addInfo = {
+          realname : $('#realname').val(),
+          phone : $('#phone').val(),
+          province : $('#seachprov').find("option:selected").text(), //获取省对的text
+          province_num : $('#seachprov').val(),                     //获取到省得编号
+          city : $('#seachcity').find("option:selected").text(), //获取到城市的text
+          city_num : $('#seachcity').val(),                         //获取到城市的编号
+          county : $('#seachdistrict').find("option:selected").text(),    //获取到区的html
+          county_num : $('#seachdistrict').val(),                   //获取到区的编号
+          detail_addr : $('#detailAddress').val(),          //获取到详细地址
+          isdefault : $('#default').is(':checked'),         //判断是否选中设为默认地址
+          id : $(this).attr('addrid'),                      //得到当前地址的id
+        };
+        //检查用户是否有填写应填写的信息
+        if(addInfo.realname == ''){
+          layer.msg('姓名不能为空1',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.phone == ''){
+          layer.msg('手机号码不能为空1',{icon:5,time:1000});
+          return false;
+        }
+        if(!/^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1}))+\d{8})$/.test(addInfo.phone)){
+          layer.msg('手机号码格式不对1',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.province_num == 0){
+          layer.msg('请选择省1',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.city_num == 0){
+          layer.msg('请选择市1',{icon:5,time:1000});
+          return false;
+        }
+        if(addInfo.detail_addr == ''){
+          layer.msg('详细地址不能为空1',{icon:5,time:1000});
+          return false;
+        }
+        //全部通过以后
+        var currentobj = $(this);
+        
+        
+        $.ajax({
+          url: '{:U("home/address/editsave")}',
+          type: 'POST',
+          dataType: 'json',
+          data: {alldata: addInfo},
+          success:function(data){
+            //如果追加过来的有选中默认地址的checkbox,就是有选中默认地址相对应的也要做改变
+            if(data.error == 0 && data.isdefault == 1){
+              //如果是默认地址的还要删除其他显示的默认地址的显示 显示当前的默认选中地址
+              $('.isdefaultaddr').replaceWith('<a class="beDefault hide setdefault" addrid="'+data.oldaddrid+'" href="javascript:;">设为默认</a>');
+              $('.addressli').eq(editindexnum).replaceWith('<li class="addressli"> <input class="addressId" type="hidden" value="'+data.addressid+'"> <input class="isOld" type="hidden" value="0"> <span class="center w15">'+data.realname+'</span> <span class="completeAddress center w35">'+data.address+'</span> <span class="center w25">'+data.phone+'</span> <span class="center w10"> <a class="edit" addrid="'+data.addressid+'"  href="javascript:;">修改</a> <a class="delete" addrid="'+data.addressid+'" href="javascript:;">删除</a> </span> <span class="left w15">  <i class="defaultAddress isdefaultaddr" addrid="'+data.addressid+'">√默认地址</i> </span> </li>');
+            }else{
+                $('.addressli').eq(editindexnum).replaceWith('<li class="addressli"> <input class="addressId" type="hidden" value="'+data.addressid+'"> <input class="isOld" type="hidden" value="0"> <span class="center w15">'+data.realname+'</span> <span class="completeAddress center w35">'+data.address+'</span> <span class="center w25">'+data.phone+'</span> <span class="center w10"> <a class="edit" addrid="'+data.addressid+'"  href="javascript:;">修改</a> <a class="delete" addrid="'+data.addressid+'" href="javascript:;">删除</a> </span> <span class="left w15">   <a class="beDefault hide setdefault" addrid="'+data.addressid+'" href="javascript:;">设为默认</a></span></li>');
+            }
+            currentobj.attr('id', 'addsave');    //点击了编辑保存以后还要将原来的id重置回原来的模样
+            $('#realname').val('');
+            $('#phone').val('');
+            $('#detailAddress').val('');
+            $('#seachprov').val(addInfo.province_num);   //省的默认选择
+            changeComplexProvince(addInfo.province_num, sub_array, 'seachcity', 'seachdistrict');
+            $('#seachcity').val(0);       //市的默认选择
+            changeCity(0,'seachdistrict','seachdistrict'); //
+            $('#seachdistrict').val(0);  //区的默认选择
+          },
+          error:function(){
+          }
+        });
+      });
+    });
+  </script>

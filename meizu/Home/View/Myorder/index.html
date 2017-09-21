@@ -1,0 +1,255 @@
+<style>
+    .center {
+    display: table-cell;
+  /*  margin-left: 0px;
+    margin-right: 0px;*/
+}
+</style>
+<!-- <link rel="stylesheet" href="__PUBLIC__/home/css/aio1.css">
+<link rel="stylesheet" href="__PUBLIC__/home/css/site-base1.css"> -->
+
+<div class="store-wrap">
+    <div class="crumbs">
+        <a href="{:U('home/index/index')}">
+            首页&gt;
+        </a>
+        <a href="javascript:void()">
+            我的商城&gt;
+        </a>
+        <a href="javascript:void()" class="active">
+            我的订单
+        </a>
+    </div>
+    <div class="main clearfix">
+        <div class="left-nav f-fl">
+            <div class="nav-main"> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-orderCenter"></i>订单中心</a>
+              <a href="{:U('home/myorder/index')}" class="ml active">我的订单</a>
+              <a href="{:U('home/car/index')}" class="ml" target="_blank">我的购物车</a> 
+              <a href="javascript:void()" class="ml ">我的意外保</a> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-selfCenter"></i>个人中心</a> 
+              <a href="{:U('home/address/addressmanage')}" class="ml">地址管理</a> 
+              <a href="javascript:;" class="ml ">我的收藏</a> 
+              <a href="javascript:;" class="ml ">消息提醒</a> 
+              <a href="{:U('home/feedback/index')}" class="ml">建议反馈</a> 
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-moneyCenter"></i>资产中心</a> 
+              <a href="javascript:;" class="ml ">我的优惠卷</a>
+              <a href="javascript:;" class="ml ">消息红包</a>
+              <a href="javascript:;" class="ml ">我的回购卷</a>
+              <a href="javascript:;" class="type-title"><i class="iconfont icon-serverCenter"></i>服务中心</a>
+               <a href="javascript:;" class="ml ">退款</a>
+            </div> 
+        </div>
+        <div class="right-content f-fr">
+            <div class="order-main">
+                <div class="title">
+                    我的订单
+                </div>
+                <div class="type-tab-btn">
+                    <a href="{:U('home/myorder/index')}" class="allOrder <?php if(ACTION_NAME == 'index') echo 'active' ?>" data-type="-1">
+                        全部订单
+                        
+                    </a>
+                    <i class="line">
+                        |
+                    </i>
+                    <a class="waitPay <?php if(ACTION_NAME == 'waitpay') echo 'active' ?>" href="{:U('home/myorder/waitpay')}" data-type="0">
+                        待付款
+                    </a>
+                    <i class="line">
+                        |
+                    </i>
+                    <a class="waitDeliver <?php if(ACTION_NAME == 'waitdeliver') echo 'active' ?>" href="{:U('home/myorder/waitdeliver')}" data-type="1">
+                        待发货
+                    </a>
+                    <i class="line">
+                        |
+                    </i>
+                    <a class="hasDeliver <?php if(ACTION_NAME == 'hasdeliver') echo 'active' ?>" href="{:U('home/myorder/hasdeliver')}" data-type="2">
+                        已发货
+                    </a>
+                    <i class="line">
+                        |
+                    </i>
+                    <!-- <a class="hasDeliver <?php if(ACTION_NAME == 'complete') echo 'active' ?>"  href="{:U('home/myorder/complete')}" data-type="2">
+                        已完成
+                    </a>
+                    <i class="line">
+                        |
+                    </i> -->
+                    <a class="hascancel <?php if(ACTION_NAME == 'orther') echo 'active' ?>" href="{:U('home/myorder/orther')}" data-type="2">
+                        其他
+                    </a>
+                </div>
+                <div class="list-head">
+                    <ul class="clearfix">
+                        <li class="w50">
+                            订单明细
+                        </li>
+                        <li class="w125">
+                            售后
+                        </li>
+                        <li class="w125">
+                            金额
+                        </li>
+                        <li class="w125">
+                            状态
+                        </li>
+                        <li class="w125">
+                            操作
+                        </li>
+                    </ul>
+                </div>
+                
+                <?php 
+                    if(count($orderRes) > 0){ ?>
+                <div id="tableList" class="type-contain ui-load-container">
+                    <div class="ui-load-content">
+                        <input id="unPayNum" value="1" type="hidden">
+                        <table class="orderItem">
+                            <tbody>
+                            <?php 
+                                foreach ($orderRes as $key => $value) { ?>
+                                    <tr class="trHead">
+                                    <td colspan="5" class="title clearfix">
+                                        <div class="f-fl">
+                                            下单时间：
+                                            <span class="time">
+                                                <?php echo $value['order_time'] ?>
+                                            </span>
+                                            订单号：
+                                            <span class="orderNumber">
+                                                <?php echo $value['order_code'] ?>
+                                            </span>
+                                        </div>
+                                        
+                                    </td>
+                                </tr>
+                                <tr class="list-box b-l b-r b-b">
+                                    <td class="list b-r">
+                                    
+                                    <?php  
+                                        foreach ($value['order_sku'] as $k => $v) { ?>
+                                            <div class="item clearfix">
+                                                <a class="productDetail f-fl nameWidth" href="{:U('home/shopdetail/index',array('good_id'=>$v['good_id']))}"
+                                                target="_blank">
+                                                    <img src="__ROOT__/<?php echo $v['good_pic'] ?>" class="f-fl">
+                                                </a>
+                                                <div class="describe f-fl">
+                                                    <div class="vertic clearfix">
+                                                        <span class="clearfix">
+                                                            <a class="productDetail f-fl nameWidth" href="{:U('home/shopdetail/index',array('good_id'=>$v['good_id']))}"
+                                                            target="_blank">
+                                                                <?php echo $v['good_name']." ".$v['attr_combine']; ?>
+                                                            </a>
+                                                            <i class="f-fr">
+                                                                ￥<?php echo $v['good_price']; ?> × <?php echo $v['good_num']; ?>
+                                                            </i>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="seeDeliverBox">
+                                                    <input class="isOldProduct" value="false" type="hidden">
+                                                    <input class="orderSn" value="21080551181114128081" type="hidden">
+                                                    <input class="orderSnSon" value="21080551181114129081" type="hidden">
+                                                    <div class="content">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                     <?php  }
+                                    ?> 
+                                        <!-- 此处子循环结束 --> 
+                                    </td>
+                                    <td class="b-r w125 center ">
+                                        <div class="priceDiv" style="color:red;font-size:16px;font-weight:bold">
+                                            ￥ <?php echo $value['order_price']; ?>
+                                        </div>
+                                    </td>
+                                    <td class="b-r w125 center " >
+                                        <div class="stateDiv">
+                                            <div style="margin-bottom:5px">
+                                                <?php 
+                                                    if ($value['status'] == 0) {
+                                                        echo '待付款';
+                                                    }elseif($value['status'] == 1){
+                                                       echo '已付款等待发货'; 
+                                                    }elseif($value['status'] == 2){
+                                                       echo '已发货'; 
+                                                    }elseif($value['status'] == 3){
+                                                       echo '已取消';  
+                                                    }elseif($value['status'] == 4){
+                                                       echo '订单已完成';  
+                                                    }
+                                                ?>
+                                                <br>
+                                            </div>
+                                        </div>
+                                    </td>
+
+                                    <td class="w125 center ">
+                                        <ul>
+                                            <?php  
+                                                if ($value['status'] == 0) { ?>
+                                                    <li class="goPay">
+                                                        <a href="{:U('home/order/payment',array('id'=>$value['order_id']))}">
+                                                            立即付款
+                                                        </a>
+                                                    </li>
+                                             <?php }
+                                            ?>
+
+                                            <?php  
+                                                if ($value['status'] == 0) { ?>
+                                                    <li class="cancel" orderid="<?php echo $value['order_id'] ?>">
+                                                        取消订单
+                                                    </li>
+                                             <?php }elseif($value['status'] == 1 || $value['status'] == 2){
+                                                ?>
+                                                    <li class="cants" style="cursor: default;">
+                                                        <span style="color:red">无法取消订单</span>
+                                                    </li>
+                                                <?php
+                                             }
+                                            ?>
+                                            <li class="more">
+                                                <a href="{:U('home/myorder/orderdetail',array('orderid'=>$value['order_id']))}">
+                                                    查看详情
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </td>
+                                </tr>
+                                <tr class="empty">
+                                    <td>
+                                    </td>
+                                </tr>
+                               <?php }
+                            ?>
+                            </tbody>
+                        </table>
+                    </div>
+                <?php }else{
+                    ?>
+                        <div class="backCoupon-main" style="height:220px;">
+                            <div id="tableList"  class="type-contain ui-load-container"><div class="ui-load-content J_no_data" ><p class="J_no_data_des"><a href="{:U('home/index/index')}" class="add_address" >还没有该类订单！ </a></p></div></div>
+                        </div> 
+                    <?php
+                }
+                ?>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/Home/js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        $(document).on('click', '.cancel', function(event) {
+            if(confirm('您确定要取消订单吗?')){
+                var orderid = $(this).attr('orderid');
+                location.href='http://<?php echo $_SERVER["HTTP_HOST"] ?>__CONTROLLER__/cancelorder/orderid/'+orderid+'';
+            }
+        });
+    });
+
+</script>

@@ -1,0 +1,151 @@
+<link href="__PUBLIC__/Home/huadongyanzheng/css/drag.css" rel="stylesheet" type="text/css">
+<script src="__PUBLIC__/Home/huadongyanzheng/js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="__PUBLIC__/Home/huadongyanzheng/js/drag.js" type="text/javascript"></script>
+<link rel="stylesheet" href="__PUBLIC__/home/css/payment_new.css">
+<!-- 倒计时 -->
+<script type="text/javascript">
+  function Timer(maxtime, id, callback) {
+        
+        var tmp
+        function CountDown() {
+            if (maxtime >= 0) {
+                day = Math.floor(maxtime / (60 * 60 * 24));
+                tmp = maxtime - day * 60 * 60 * 24;
+                hours = Math.floor(tmp / (60 * 60));
+                tmp = tmp - hours * 60 * 60;
+                minutes = Math.floor(tmp / (60));
+                tmp = tmp - minutes * 60;
+                seconds = tmp
+                msg = hours + "小时" + minutes + "分" + seconds + "秒"
+                document.getElementById(id).innerHTML = msg;
+                maxtime -= 1;
+            }
+            else {
+                clearInterval(timer);
+                if (typeof callback == "function") callback(); //执行倒计时完成后的回调
+            }
+        }
+        var timer = setInterval(function () { CountDown() }, 1000);
+    }
+    window.onload = function () {
+        new Timer(3*24*60*60, 'timer1', function () { document.getElementById("timer1").innerHTML = "计时器1完成"; });
+       
+    }
+</script>
+<div id="payment"> 
+   <div class="mzcontainer"> 
+    <div class="payment_header clearfix"> 
+     <div class="icon"> 
+      <div class="payment_icon success"></div> 
+     </div> 
+     <div class="info"> 
+      <div class="main"> 
+      <i class="order-font payment-success"></i>
+       <h2 style="font-weight:bold;font-size:24px;color:#333">订单提交成功，应付金额 <span style="color:#e02b41"><?php echo $orderRes[0]['order_price'] ?>.00</span> 元</h2> 
+       <!--库存货提示-->
+       
+       <p>订单号：<?php echo $orderRes[0]['order_code'] ?>&nbsp;&nbsp;&nbsp;&nbsp;
+       请您在 <span id="payTimer" style="color:#e02b41"> <span id="timer" style="display:inline-block;color:red;">24小时</span> </span> 内完成支付，否则订单会被自动取消</p> 
+      </div> 
+      <div class="other"> 
+
+      	<?php  
+      		foreach ($goodRes as $key => $value) { ?>
+      			<div class="tr"> 
+		        <div class="td name">
+		         商品
+		        </div> 
+		        <div class="td value"> 
+		         <span class="prod"> <?php echo $value['good_name'].$value['attr_combine'] ?> X <?php echo $value['good_num'] ?></span> 
+		        </div> 
+		       </div>
+      	<?php }
+      	?>
+
+       <div class="tr"> 
+        <div class="td name">
+         收货地址
+        </div> 
+        <div class="td value">
+          <?php echo $orderRes[0]['address_text'] ?> <?php echo $orderRes[0]['username'] ?>（收） <?php echo $orderRes[0]['phone'] ?> 
+         <a href="javascript:;" class="edit_btn"></a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <form id="paymentForm" method="post" action="{:U('home/order/paysuccess')}">
+	    <div class="tab_panel" id="tabPanel"> 
+		    <ul class="btns clearfix"> 
+		      <li class="yinhang active">在线支付</li> 
+		      <li class="zhifubao">支付宝支付</li> 
+          <li class="weixin">微信扫码</li>
+		    </ul> 
+			
+		    <ul class="panels clearfix "> 
+		      <li class="tools_choose active" id="yinhang"> 
+		       <div style="text-indent:105px;padding-bottom:20px;color:#ea5245;">
+		        使用花呗分期，笔笔赢红包，最高999元
+		       </div> 
+		       	<div class="clearfix"> 
+		        <div class="radio-box alipay active" data-bank="alipay" data-val="Alipay">
+
+		        <!-- <div id="drag"></div> -->
+				<script type="text/javascript">
+					$('#drag').drag();
+				</script>
+		         <div class="payment_icon"></div> 
+		        </div> 
+		        </div> 
+		        <div class="huabei-select" id="huabeiSelect"> 
+		        <div class="header">
+		         使用花呗分期
+		        </div> 
+		         
+		        </div> 
+		        <div class="bank_detail"> 
+		        </div> <a href="javascript:;" class="go_to_pay" id="goToPay">立即支付</a> 
+		        </li> 
+             <li class="tools_choose active" id="zhifubao" style="display:none"> 
+               <div style="text-indent:105px;padding-bottom:20px;color:#ea5245;">
+                  <img src="__PUBLIC__/img/zhifubao.jpg" alt="">
+               </div> 
+              
+            </li> 
+            <li class="tools_choose active" id="weixin" style="display:none"> 
+               <div style="text-indent:105px;padding-bottom:20px;color:#ea5245;">
+                  <img src="__PUBLIC__/img/weixin.jpg" alt="">
+               </div> 
+              
+            </li> 
+		    </ul> 
+		    <input type="hidden" name="orderid" value="<?php echo $_GET['id'] ?>">
+			<!-- 支付宝 -->
+      
+	    </div>
+    </form> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+  $(function(){
+    $('#goToPay').click(function(){
+      $('#paymentForm').submit();
+    })
+  })
+  $('.yinhang').click(function(){
+      $(this).addClass('active').siblings().removeClass('active');
+      $('#yinhang').css('display','inline-block').siblings().css('display','none');
+  })
+  $('.zhifubao').click(function(){
+      $(this).addClass('active').siblings().removeClass('active');
+      $('#zhifubao').css('display','inline-block').siblings().css('display','none');
+  })
+  $('.weixin').click(function(){
+      $(this).addClass('active').siblings().removeClass('active');
+      $('#weixin').css('display','inline-block').siblings().css('display','none');
+  })
+ 
+  
+
+ 
+  </script>

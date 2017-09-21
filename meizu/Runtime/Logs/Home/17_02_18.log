@@ -1,0 +1,392 @@
+[ 2017-02-18T08:17:28+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.260015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.555032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.555032s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.7620s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.1880s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.7410s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.2150s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.229013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.229013s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.772044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.772044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.089005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.090005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.082004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.082004s ]
+
+[ 2017-02-18T08:17:28+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.260015s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.556032s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.557032s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.7620s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.1890s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.7400s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.2140s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.228013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.228013s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.771044s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.773044s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.088005s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.089005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.082004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.082004s ]
+
+[ 2017-02-18T11:03:36+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0070s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-02-18T11:03:44+08:00 ] 127.0.0.1 /mz/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `shop_category` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 6 [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort LIMIT 7   [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `banner` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `banner` WHERE ( status = 1 ) LIMIT 5   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `shop_goods` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `shop_goods` WHERE ( ispublish = 1 and isnew = 1 ) ORDER BY good_id desc LIMIT 15   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `shop_category` WHERE ( pid = 0 ) ORDER BY sort  [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '1' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '28' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0010s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '7' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '36' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '30' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '37' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+SQL: select good_id,good_name,good_pic,good_marketprice,isnew from shop_goods where cate_id = '38' and ispublish = 1 order by good_id desc limit 10 [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 352 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+NOTIC: [8] Undefined index: good_desc D:\wamp\www\mz\meizu\Runtime\Cache\Home\9bb6c74632b0adeb99049304361bfc53.php 第 425 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

@@ -1,0 +1,2830 @@
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:34+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.004000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-08-02T22:17:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:17:41+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:17:42+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:17:43+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 31 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 31 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select attr_combine from shop_goods_list where good_id = '31' [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 31 and good_stock != 0) and (attr_combine = '24' or attr_combine = '25') [ RunTime:0.0000s ]
+SQL: select * from shop_goods where good_id = 31 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '3' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-08-02T22:18:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods_attr where good_id = 31 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select attr_combine from shop_goods_list where good_id = '31' [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 31 and good_stock != 0) and (attr_combine = '24' or attr_combine = '25') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 31 and attr_combine = '25' [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:18:24+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '31' and attr_combine = '25' and good_stock > 0 [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:18:24+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.062004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.062004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:18:24+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 15 行.
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 18 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 26 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_pic E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 448 行.
+NOTIC: [8] Undefined index: good_name E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 450 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 451 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 453 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 463 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:18:25+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 17 行.
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: good_pic E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 448 行.
+NOTIC: [8] Undefined index: good_name E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 450 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 451 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 453 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 463 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014001s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010001s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:18:50+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:20+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:20+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:20+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+
+[ 2016-08-02T22:20:20+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:20+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 17 行.
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_pic E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 448 行.
+NOTIC: [8] Undefined index: good_name E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 450 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 451 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 453 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 463 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:20:21+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 17 行.
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_pic E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 448 行.
+NOTIC: [8] Undefined index: good_name E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 450 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 451 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 453 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 463 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:29+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.017001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '25' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 17 行.
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 20 行.
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: good_pic E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 448 行.
+NOTIC: [8] Undefined index: good_name E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 450 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 451 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 453 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 463 行.
+NOTIC: [8] Undefined index: good_price E:\wamp\www\meizushangchengtpnew\meizu\Runtime\Cache\Home\6e9f2494ff25649c378339f78a395733.php 第 481 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_category [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\IndexController.class.php:10) E:\wamp\www\meizushangchengtpnew\ThinkPHP\Library\Think\View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:20:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:20:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:46+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:20:46+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:20:46+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:20:46+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:20:46+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0020s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:14+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:47:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:47:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-08-02T22:47:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:47:15+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:47:16+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,6' and good_stock > 0 [ RunTime:0.0000s ]
+
+[ 2016-08-02T22:47:16+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:16+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '24' and t2.good_listid = '2,5,6' [ RunTime:0.0020s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '2' [ RunTime:0.0020s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '5' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '7' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.011001s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.027001s ]
+
+[ 2016-08-02T22:47:17+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/27
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 27 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 27 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 27 and good_stock != 0) and (attr_combine like '%,20,21' or attr_combine like '19,%,21' or attr_combine like '19,20,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods where good_id = 27 [ RunTime:0.0010s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007001s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:51:02+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 27 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 27 and good_stock != 0) and (attr_combine like '%,20,22' or attr_combine like '19,%,22' or attr_combine like '19,20,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 27 and attr_combine = '19,20,22' [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_goods_list where good_id = '27' and attr_combine = '19,20,22' and good_stock > 0 [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '27' and t2.good_listid = '19,20,22' [ RunTime:0.0010s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '19' [ RunTime:0.0010s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '20' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '22' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:05+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:51:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:24+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,6' and good_stock > 0 [ RunTime:0.0000s ]
+
+[ 2016-08-02T22:54:24+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:26+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0010s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:54:29+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:54:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:40+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '2,%,7' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,7' [ RunTime:0.0000s ]
+
+[ 2016-08-02T22:54:41+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,7' and good_stock > 0 [ RunTime:0.0000s ]
+
+[ 2016-08-02T22:54:41+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:54:42+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.013001s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:57+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:54:59+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,6' and good_stock > 0 [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 31 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 31 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select attr_combine from shop_goods_list where good_id = '31' [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 31 and good_stock != 0) and (attr_combine = '24' or attr_combine = '25') [ RunTime:0.0000s ]
+SQL: select * from shop_goods where good_id = 31 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '3' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016001s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:33+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:35+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 31 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select attr_combine from shop_goods_list where good_id = '31' [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 31 and good_stock != 0) and (attr_combine = '24' or attr_combine = '25') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 31 and attr_combine = '25' [ RunTime:0.0000s ]
+
+[ 2016-08-02T22:56:38+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_goods_list where good_id = '31' and attr_combine = '25' and good_stock > 0 [ RunTime:0.0040s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/31
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods_attr where good_id = 31 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0020s ]
+SQL: select * from shop_goods_list where good_id = 31 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select attr_combine from shop_goods_list where good_id = '31' [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 31 and good_stock != 0) and (attr_combine = '24' or attr_combine = '25') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 31 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '3' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-08-02T22:56:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '31' and attr_combine = '24' and good_stock > 0 [ RunTime:0.0010s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '21' [ RunTime:0.0010s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '24' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T22:56:54+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '31' and t2.good_listid = '21' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '24' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+
+[ 2016-08-02T23:01:52+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:02:32+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: good_id E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 8 行.
+NOTIC: [8] Undefined index: good_listid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 9 行.
+NOTIC: [8] Undefined index: good_num E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 10 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:02:35+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:35+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:02:36+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:02:55+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '3,%,6' or attr_combine like '3,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '3,5,6' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:02:56+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,6' or attr_combine like '3,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '3,6' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\ShopdetailController.class.php 第 201 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\ShopdetailController.class.php 第 202 行.
+
+[ 2016-08-02T23:02:56+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,6' or attr_combine like '2,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,6' [ RunTime:0.0000s ]
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\ShopdetailController.class.php 第 201 行.
+NOTIC: [8] Undefined offset: 0 E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\ShopdetailController.class.php 第 202 行.
+
+[ 2016-08-02T23:02:56+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,6' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:02:57+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '2,%,7' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,7' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:02:57+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,8' or attr_combine like '2,%,8' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,8' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:02:58+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,8' or attr_combine like '4,%,8' or attr_combine like '4,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '4,5,8' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:02:58+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '4,%,7' or attr_combine like '4,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '4,5,7' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:02:59+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '2,%,7' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,7' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:02:59+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,6' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:03:01+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,8' or attr_combine like '2,%,8' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,8' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:03:01+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '2,%,7' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,7' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:03:02+08:00 ] 127.0.0.1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '4,%,7' or attr_combine like '4,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '4,5,7' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0000s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:04+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/24
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and good_stock > 0 limit 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0020s ]
+SQL: select * from shop_goods where good_id = 24 [ RunTime:0.0010s ]
+SQL: select attr_value from shop_type_attr where attr_name = '规格参数' and type_id = '1' [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:04:06+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/index/good_id/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:04:08+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '3,%,6' or attr_combine like '3,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '3,5,6' [ RunTime:0.0010s ]
+
+[ 2016-08-02T23:04:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,6' or attr_combine like '2,%,6' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,6' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:04:09+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0000s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,7' or attr_combine like '2,%,7' or attr_combine like '2,5,%') [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,7' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:04:10+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checksku.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_attr where good_id = 24 [ RunTime:0.0010s ]
+SQL: select * from shop_type_attr where isbeselected = 1 [ RunTime:0.0000s ]
+SQL: select * from shop_goods_list where (good_id = 24 and good_stock != 0) and (attr_combine like '%,5,8' or attr_combine like '2,%,8' or attr_combine like '2,5,%') [ RunTime:0.0010s ]
+SQL: select * from shop_goods_list where good_id = 24 and attr_combine = '2,5,8' [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,8' and good_stock > 0 [ RunTime:0.0020s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '24' and t2.good_listid = '3' [ RunTime:0.0010s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '2' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '5' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '8' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:04:12+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/shopdetail/checkstock.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: select * from shop_goods_list where good_id = '24' and attr_combine = '2,5,6' and good_stock > 0 [ RunTime:0.0000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/login/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/confirm.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: select * from shop_goods t1 left join shop_goods_list t2 on t1.good_id = t2.good_id where t1.good_id = '24' and t2.good_listid = '1' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '2' [ RunTime:0.0010s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '5' [ RunTime:0.0000s ]
+SQL: select  good_attr_value  from  shop_goods_attr where good_attr_id = '6' [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: uid E:\wamp\www\meizushangchengtpnew\meizu\Home\Controller\OrderController.class.php 第 28 行.
+SQL: select * from receive_addr where uid = '' [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/init-1x1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696166-40112.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696220-57637.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696197-95413.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467705893-97644.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/Cix_s1eN3IiASxVXAA9IpQ8-shg169_126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1467696242-24236.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1466996090@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/1450928272@126x126.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/order/good_detail_files/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-02T23:08:31+08:00 ] ::1 /meizushangchengtpnew/index.php/home/register/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
